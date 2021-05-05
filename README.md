@@ -3,9 +3,9 @@
         # Dark Kitchen
         
         * Sistema WebApp para uma Dark Kitchen
-        * Projeto FICR
         
-        ADS/SI - 1º Período Noite
+        
+        FICR ADS/SI - 1º Período Noite
         
         
         Equipe 17:

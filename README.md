@@ -1,5 +1,5 @@
 
-    <b>
+    
         # Dark Kitchen
         
         * Sistema WebApp para uma Dark Kitchen
@@ -19,7 +19,7 @@
         LUCAS DE MEDEIROS FELIX
         
         MATHEUS GUILHERME MATOS CAVALCANTI
-    </b>
+    
            
   
 

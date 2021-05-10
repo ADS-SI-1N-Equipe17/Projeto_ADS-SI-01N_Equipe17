@@ -48,6 +48,11 @@ div#info p{
 section#cartoes{
     background-color: white;
 
+
+}
+section#cartoes p{
+    font-size: 19px;
+    color: #757575;
 }
 h3{
     color: #04c904;
@@ -69,4 +74,14 @@ h4{
 }
 .logo{
     margin-bottom: 1px;
+}
+.card .card-content p{
+    font-size: 17px !important;
+}
+
+.card .card-content h4{
+    color: #04c904;
+}
+.card .card-action a{
+    color: #a36200ab !important;
 }

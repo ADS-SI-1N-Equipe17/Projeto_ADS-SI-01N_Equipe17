@@ -82,6 +82,9 @@ h4{
 .card .card-content h4{
     color: #04c904;
 }
-.card .card-action a{
+.card-content a{
     color: #a36200ab !important;
+    font-weight: 400;
+    text-transform: uppercase;
 }
+

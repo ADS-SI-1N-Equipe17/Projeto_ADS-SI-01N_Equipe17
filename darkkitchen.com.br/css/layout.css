@@ -14,7 +14,7 @@ section#top {
 }
 
 section#top nav {
-    background-color: rgba(161, 97, 0, 0.7);
+    background-color: rgba(163, 98, 0, 0.8);
     padding: 1em;
     height: 6em;
 }
@@ -30,26 +30,27 @@ section#top nav ul li:nth-child(5) {
 }
 
 div#info {
-    color: red;
+    color: #ac6700fd;
+    text-shadow: 1px 1px white;
+    
+
     margin-top: 3em;
 
 }
 div#info h2{
     font-weight: 800;
+    
 }
 div#info p{
-    font-size: 23px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 /* classes */
-
-.logo {
-    width: 60%;
-    height: 60%;
-}
-
 .banner-top{
-    background: url('..//img/pngwing.com.png') no-repeat right bottom;
+    background: url('..//img/banner2-base.jpg') no-repeat left bottom;
     
+}
+.logo{
+    margin-bottom: 1px;
 }

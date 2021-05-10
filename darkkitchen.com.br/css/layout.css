@@ -1,8 +1,55 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
+/* formatações gerais */
 
+body {
+    font-family: 'Spectral', serif;
+}
 
+/* formatações da section top */
 
-div.nav-wrapper{
-    font-family: sans-serif;
+section#top {
+    background-color: #FFD76B;
+    height: 31em;
+    padding-bottom: 32px;
+}
+
+section#top nav {
+    background-color: rgba(161, 97, 0, 0.7);
+    padding: 1em;
+    height: 6em;
+}
+
+section#top nav ul li a {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+section#top nav ul li:nth-child(5) {
+    border-left: 1px solid white;
+}
+
+div#info {
+    color: red;
+    margin-top: 3em;
+
+}
+div#info h2{
+    font-weight: 800;
+}
+div#info p{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+/* classes */
+
+.logo {
+    width: 60%;
+    height: 60%;
+}
+
+.banner-top{
+    background: url('..//img/pngwing.com.png') no-repeat right bottom;
     
 }

@@ -25,13 +25,13 @@ section#top nav ul li a {
     letter-spacing: 1px;
 }
 
-section#top nav ul li:nth-child(4) {
+section#top nav ul li:nth-child(5) {
     border-left: 1px solid white;
 }
 
 div#info {
     color: #04c904;
-    text-shadow: 3px 3px black;
+    text-shadow: 2px 2px black;
     margin-top: 3em;
 }
 
@@ -116,3 +116,4 @@ section#mid {
 .page-footer h5{
     color: #efefef;
 }
+.page-footer

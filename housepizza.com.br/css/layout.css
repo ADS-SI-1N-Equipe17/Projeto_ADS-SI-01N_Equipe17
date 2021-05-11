@@ -45,12 +45,12 @@ div#info p{
     font-size: 30px;
     font-weight: 800;
 }
-section#cartoes{
-    background-color: white;
+section#categorias{
+    background-color: #fff;
 
 
 }
-section#cartoes p{
+section#categorias p{
     font-size: 19px;
     color: #757575;
 }
@@ -64,7 +64,14 @@ h3{
 
 }
 h4{
+    color: #04c904;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-left: 2px solid  #a36200ab;
+    padding-left: 8px;
     font-size: 2em
+    
+    
 }
 
 /* classes */
@@ -87,4 +94,6 @@ h4{
     font-weight: 400;
     text-transform: uppercase;
 }
+
+
 

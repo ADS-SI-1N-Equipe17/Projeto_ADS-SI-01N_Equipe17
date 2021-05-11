@@ -32,68 +32,77 @@ section#top nav ul li:nth-child(4) {
 div#info {
     color: #04c904;
     text-shadow: 3px 3px black;
-    
-
     margin-top: 3em;
+}
 
-}
-div#info h2{
+div#info h2 {
     font-weight: 800;
-    
 }
-div#info p{
+
+div#info p {
     font-size: 30px;
     font-weight: 800;
 }
-section#categorias{
+
+/* categorias */
+
+section#categorias {
     background-color: #fff;
-
-
 }
-section#categorias p{
+
+section#categorias p, section#mid p {
     font-size: 19px;
     color: #757575;
 }
-h3{
+
+/*titulos*/
+
+h3 {
     color: #04c904;
     font-weight: 400;
     text-transform: uppercase;
-    border-left: 2px solid  #a36200ab;
+    border-left: 2px solid #a36200ab;
     padding-left: 8px;
     font-size: 2.5em;
-
 }
-h4{
+
+h4 {
     color: #04c904;
     font-weight: 400;
     text-transform: uppercase;
-    border-left: 2px solid  #a36200ab;
+    border-left: 2px solid #a36200ab;
     padding-left: 8px;
     font-size: 2em
-    
-    
+}
+
+/* mid content */
+
+section#mid {
+    background-color: rgba(163, 98, 0, 0.09);
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 /* classes */
-.banner-top{
+
+.banner-top {
     background: url('../img/banner2-base.jpg') no-repeat right bottom;
-    
 }
-.logo{
+
+.logo {
     margin-bottom: 1px;
 }
-.card .card-content p{
+
+.card .card-content p, section#mid .row p {
     font-size: 17px !important;
 }
 
-.card .card-content h4{
+.card .card-content h4 {
     color: #04c904;
 }
-.card-content a{
+
+.card-content a {
     color: #a36200ab !important;
     font-weight: 400;
     text-transform: uppercase;
 }
-
-
-

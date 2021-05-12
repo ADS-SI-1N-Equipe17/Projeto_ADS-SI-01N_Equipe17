@@ -8,7 +8,7 @@ body {
 /* formatações da section top */
 
 section#top {
-    background-color: #FFD76B;
+    background-color: rgba(163, 98, 0, 0.8);
     height: 31em;
     padding-bottom: 30px;
 }
@@ -111,7 +111,15 @@ div#redes ul li:nth-child(3) a:hover {
 /* classes */
 
 .banner-top {
-    background: url('../img/bannerpizza.png') no-repeat center bottom;
+    background: url('../img/bannersite1.jpg') no-repeat center bottom;
+}
+
+/* Banner para telas menores */
+
+@media only screen and (max-device-width: 768px) {
+    .banner-top {
+        background: url('../img/bannerpizza.png') no-repeat center bottom;
+    }
 }
 
 .logo {

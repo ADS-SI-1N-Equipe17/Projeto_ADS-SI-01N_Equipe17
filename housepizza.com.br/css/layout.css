@@ -29,22 +29,6 @@ section#top nav ul li:nth-child(5) {
     border-left: 1px solid white;
 }
 
-div#info {
-    color: #04c904;
-    text-shadow: 3px 3px black;
-    margin-top: 5em;
-    
-}
-
-div#info h2 {
-    font-weight: 800;
-}
-
-div#info p {
-    font-size: 30px;
-    font-weight: 800;
-}
-
 /* categorias */
 
 section#categorias {
@@ -83,17 +67,21 @@ section#mid {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
 /*redes*/
-div#redes ul li{
+
+div#redes ul li {
     height: 30px;
     width: 30px;
     display: inline-block;
 }
-.redes{
+
+.redes {
     position: absolute;
     bottom: 12px;
     right: 150px;
 }
+
 /* classes */
 
 .banner-top {

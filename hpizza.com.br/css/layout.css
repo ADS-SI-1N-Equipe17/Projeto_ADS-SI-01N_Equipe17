@@ -114,14 +114,6 @@ div#redes ul li:nth-child(3) a:hover {
     background: url('../img/bannersite1.jpg') no-repeat center bottom;
 }
 
-/* Banner para telas menores */
-
-@media only screen and (max-device-width: 768px) {
-    .banner-top {
-        background: url('../img/bannerpizza.png') no-repeat center bottom;
-    }
-}
-
 .logo {
     margin-bottom: 1px;
 }

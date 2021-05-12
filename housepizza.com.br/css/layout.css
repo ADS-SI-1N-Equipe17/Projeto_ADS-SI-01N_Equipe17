@@ -68,18 +68,44 @@ section#mid {
     padding-bottom: 1em;
 }
 
-/*redes*/
+/*redes sociais*/
 
 div#redes ul li {
-    height: 30px;
-    width: 30px;
-    display: inline-block;
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 15px;
 }
 
-.redes {
-    position: absolute;
-    bottom: 12px;
-    right: 150px;
+div#redes ul li a {
+    background-image: url('../img/sprite-social.png');
+    display: block;
+    height: 100%;
+    text-indent: -99999em;
+}
+
+div#redes ul li:nth-child(1) a {
+    background-position: 0px 0px;
+}
+
+div#redes ul li:nth-child(2) a {
+    background-position: -64px 0px;
+}
+
+div#redes ul li:nth-child(3) a {
+    background-position: -128px 0px;
+}
+
+div#redes ul li:nth-child(1) a:hover {
+    background-position: 0px -32px;
+}
+
+div#redes ul li:nth-child(2) a:hover {
+    background-position: -64px -32px;
+}
+
+div#redes ul li:nth-child(3) a:hover {
+    background-position: -128px -32px;
 }
 
 /* classes */

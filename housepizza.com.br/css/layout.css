@@ -31,8 +31,9 @@ section#top nav ul li:nth-child(5) {
 
 div#info {
     color: #04c904;
-    text-shadow: 2px 2px black;
-    margin-top: 5em
+    text-shadow: 3px 3px black;
+    margin-top: 5em;
+    
 }
 
 div#info h2 {
@@ -82,11 +83,21 @@ section#mid {
     padding-top: 1em;
     padding-bottom: 1em;
 }
-
+/*redes*/
+div#redes ul li{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+.redes{
+    position: absolute;
+    bottom: 12px;
+    right: 150px;
+}
 /* classes */
 
 .banner-top {
-    background: url('../img/banner2-base.jpg') no-repeat right bottom;
+    background: url('../img/bannerpizza.png') no-repeat center bottom;
 }
 
 .logo {

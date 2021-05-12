@@ -24,6 +24,11 @@ section#top nav ul li a {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+div#letrasbanner{
+    position: relative;
+    margin-top: 80px;
+    margin-right: 100px;
+}
 
 section#top nav ul li:nth-child(5) {
     border-left: 1px solid white;
@@ -111,13 +116,10 @@ div#redes ul li:nth-child(3) a:hover {
 /* classes */
 
 .banner-top {
-    background: url('../img/bannersite1.jpg') no-repeat center bottom;
-}
+    background: url('../img/banner3.jpg') no-repeat center bottom;
+    
 
-.logo {
-    margin-bottom: 1px;
 }
-
 .card .card-content p, section#mid .row p {
     font-size: 17px !important;
 }

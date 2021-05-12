@@ -10,12 +10,11 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/layout.css">
 </head>
-
 <body>
     <!-- section#top -->
     <section id="top" class="banner-top">
@@ -36,8 +35,8 @@
                         <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i
                                 class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="#sobre" class="waves-effect "><i
-                                        class="material-icons left ">manage_search</i>Sobre</a></li>
+                            <li><a href="#sobre" class="waves-effect "><i class="material-icons left ">info</i>Sobre</a>
+                            </li>
                             <li><a href="#cardapio" class="waves-effect"><i
                                         class="material-icons left ">restaurant_menu</i>Cardápio</a></li>
                             <li><a href="#login" class="modal-trigger waves-effect"><i
@@ -57,7 +56,7 @@
             <!--navbar-->
             <!-- sidenav mobile -->
             <ul class="sidenav" id="mobile-menu">
-                <li><a href="#sobre" class="waves-effect "><i class="material-icons left">manage_search</i>Sobre</a>
+                <li><a href="#sobre" class="waves-effect "><i class="material-icons left">info</i>Sobre</a>
                 </li>
                 <li><a href="#cardapio" class="waves-effect "><i
                             class="material-icons left ">restaurant_menu</i>Cardápio</a></li>
@@ -73,9 +72,9 @@
         </header>
         <!--.navbar-->
         <<div id="letrasbanner" class="container">
-            <img src="img/letrasbanner.png"alt="" class="responsive-img">
-        </div>
-        <!-- #letrasbanner -->
+            <img src="img/letrasbanner.png" alt="" class="responsive-img">
+            </div>
+            <!-- #letrasbanner -->
     </section>
     <!--.top-->
     <!-- Cards -->
@@ -257,7 +256,16 @@
         <!--.footer-copyright-->
     </footer>
     <!--.page-footer-->
-
+    <!-- botão para compartilhar no whatasapp em smartphones -->
+    <section id="zapshare">
+        <div class="fixed-action-btn">
+            <a id="compartilhar" href="https://api.whatsapp.com/send?text=[CONTEÚDO]"
+                class="btn-floating btn-large light-green accent-4 hide-on-large-only">
+                <i class="material-icons">share</i>
+            </a>
+        </div><!-- div#fixed-action-btn-->
+    </section>
+    <!--.botaocompartilhar-->
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="

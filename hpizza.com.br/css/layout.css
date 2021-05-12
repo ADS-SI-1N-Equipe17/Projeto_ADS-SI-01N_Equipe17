@@ -2,25 +2,26 @@
 /* formatações gerais */
 
 body {
-    font-family: 'Spectral', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* formatações da section top */
 
 section#top {
-    background-color: rgba(163, 98, 0, 0.8);
+    background-color: rgba(255, 159, 70, 0.8);
     height: 31em;
     padding-bottom: 30px;
 }
 
 section#top nav {
-    background-color: rgba(163, 98, 0, 0.8);
+    background-color: rgba(255, 159, 70, 0.8);
     padding: 1em;
     height: 6em;
 }
 
 section#top nav ul li a {
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -41,26 +42,29 @@ section#categorias {
 }
 
 section#categorias p, section#mid p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 19px;
-    color: #757575;
+    color: #4d4d4d;
 }
 
 /*titulos*/
 
 h3 {
-    color: #04c904;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 600;
     text-transform: uppercase;
-    border-left: 2px solid #a36200ab;
+    border-left: 2px solid #ff9f46;
     padding-left: 8px;
     font-size: 2.5em;
 }
 
 h4 {
-    color: #04c904;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff9f46;
     font-weight: 400;
     text-transform: uppercase;
-    border-left: 2px solid #a36200ab;
+    border-left: 2px solid #ff9f46;
     padding-left: 8px;
     font-size: 2em
 }
@@ -68,7 +72,7 @@ h4 {
 /* mid content */
 
 section#mid {
-    background-color: rgba(163, 98, 0, 0.09);
+    background-color: rgba(255, 236, 217, 0.7);
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -125,11 +129,12 @@ div#redes ul li:nth-child(3) a:hover {
 }
 
 .card .card-content h4 {
-    color: #04c904;
+    color: #ff9f46;
 }
 
 .card-content a {
-    color: #a36200ab !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff9f46 !important;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -143,5 +148,5 @@ div#redes ul li:nth-child(3) a:hover {
 }
 
 .page-footer h5, ul {
-    color: #efefef;
+    color: #ffffff;
 }

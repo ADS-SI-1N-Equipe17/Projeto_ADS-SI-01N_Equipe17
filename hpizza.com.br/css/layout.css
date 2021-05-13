@@ -125,7 +125,7 @@ div#redes ul li:nth-child(3) a:hover {
     
 
 }
-.card .card-content p{
+.card .card-content p, section#mid .row p {
     font-size: 17px !important;
 }
 

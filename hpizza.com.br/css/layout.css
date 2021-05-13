@@ -21,7 +21,7 @@ section#top nav {
 
 section#top nav ul li a {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -62,7 +62,7 @@ h3 {
 h4 {
     font-family: 'Montserrat', sans-serif;
     color: #ff9f46;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     border-left: 2px solid #ff9f46;
     padding-left: 8px;
@@ -135,7 +135,7 @@ div#redes ul li:nth-child(3) a:hover {
 .card-content a {
     font-family: 'Montserrat', sans-serif;
     color: #ff9f46 !important;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
 }
 

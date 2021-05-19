@@ -1,10 +1,6 @@
 //Js Materialize
 M.AutoInit();
 
-/*$(document).ready(function(){
-  $('.modal').modal();
-});*/
-
 //Compartilhar pagina no WhatsApp
 document.addEventListener("DOMContentLoaded", function () {
   var conteudo = encodeURIComponent(document.title + " " + window.location.href);

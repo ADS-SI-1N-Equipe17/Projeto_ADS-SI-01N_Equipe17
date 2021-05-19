@@ -49,6 +49,45 @@ section#categorias p, section#mid p {
     color: #4d4d4d;
 }
 
+/* Login modal */
+
+a.btn {
+    margin-top: 30%;
+}
+
+.modal {
+    max-width: 30%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.recuperar {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+.cadastrar {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
 /*titulos*/
 
 h3 {
@@ -152,43 +191,6 @@ div#redes ul li:nth-child(3) a:hover {
     color: #fff;
 }
 
-/* Login modal */
-
-a.btn {
-    margin-top: 30%;
-}
-
-.modal {
-    max-height: 100%;
-    overflow: hidden;
-}
-
-input[type="submit"] {
-    width: 100%;
-    margin-top: 40px;
-}
-
-.modal-close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 0;
-    margin: 0;
-}
-.recuperar{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-top: 3%;
-    
-}
-.cadastrar{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-top: 3%;
-}
-
 /* media queries */
 
 @media screen and (max-width: 1024px) {
@@ -209,6 +211,9 @@ input[type="submit"] {
     }
     .page-footer ul li, .footer-copyright, div#redes ul li a {
         font-size: 0.8em;
+    }
+    .modal {
+        max-width: 50%;
     }
 }
 
@@ -231,6 +236,9 @@ input[type="submit"] {
     .page-footer ul li, .footer-copyright, div#redes ul li a {
         font-size: 0.8em;
     }
+    .modal {
+        max-width: 60%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -252,6 +260,9 @@ input[type="submit"] {
     .page-footer ul li, .footer-copyright, div#redes ul li a {
         font-size: 0.8em;
     }
+    .modal {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -272,5 +283,8 @@ input[type="submit"] {
     }
     .page-footer ul li, .footer-copyright, div#redes ul li a {
         font-size: 0.8em;
+    }
+    .modal {
+        max-width: 100%;
     }
 }

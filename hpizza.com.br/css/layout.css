@@ -15,8 +15,8 @@ section#top {
 
 section#top nav {
     background-color: rgba(255, 159, 70, 0.8);
-    padding: 1em;
-    height: 6em;
+    padding: 1.25em;
+    height: 6.5em;
 }
 
 section#top nav ul li a {
@@ -25,7 +25,8 @@ section#top nav ul li a {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-div#letrasbanner{
+
+div#letrasbanner {
     position: relative;
     margin-top: 80px;
     margin-right: 100px;
@@ -122,10 +123,9 @@ div#redes ul li:nth-child(3) a:hover {
 
 .banner-top {
     background: url('../img/banner3.jpg') no-repeat center bottom;
-    
-
 }
-.card .card-content p, section#mid .row p {
+
+.card .card-content p {
     font-size: 17px !important;
 }
 
@@ -150,4 +150,90 @@ div#redes ul li:nth-child(3) a:hover {
 
 .page-footer h5, ul {
     color: #fff;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1024px) {
+    section#categorias p, section#mid p {
+        font-size: 1.1em;
+    }
+    section#categorias h3, section#mid h3 {
+        font-size: 1.9em;
+    }
+    section#categorias h4, section#mid h4 {
+        font-size: 1.5em;
+    }
+    section#categorias a {
+        font-size: 1.1em;
+    }
+    .page-footer h5, .footer-copyright h5 {
+        font-size: 1.3em;
+    }
+    .page-footer ul li a, .footer-copyright ul li a {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section#categorias p, section#mid p {
+        font-size: 1.1em;
+    }
+    section#categorias h3, section#mid h3 {
+        font-size: 1.9em;
+    }
+    section#categorias h4, section#mid h4 {
+        font-size: 1.5em;
+    }
+    section#categorias a {
+        font-size: 1.1em;
+    }
+    .page-footer h5, .footer-copyright h5 {
+        font-size: 1.3em;
+    }
+    .page-footer ul li a, .footer-copyright ul li a {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    section#categorias p, section#mid p {
+        font-size: 1.1em;
+    }
+    section#categorias h3, section#mid h3 {
+        font-size: 1.9em;
+    }
+    section#categorias h4, section#mid h4 {
+        font-size: 1.5em;
+    }
+    section#categorias a {
+        font-size: 1.1em;
+    }
+    .page-footer h5, .footer-copyright h5 {
+        font-size: 1.3em;
+    }
+    .page-footer ul li a, .footer-copyright ul li a {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    section#categorias p, section#mid p {
+        font-size: 1.1em;
+    }
+    section#categorias h3, section#mid h3 {
+        font-size: 1.9em;
+    }
+    section#categorias h4, section#mid h4 {
+        font-size: 1.5em;
+    }
+    section#categorias a {
+        font-size: 1.1em;
+    }
+    .page-footer h5{
+        font-size: 1.3em;
+    }
+    .page-footer ul li, .footer-copyright{
+        font-size: 1.1em;
+    }
 }

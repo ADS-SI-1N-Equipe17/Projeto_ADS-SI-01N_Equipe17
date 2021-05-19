@@ -167,11 +167,11 @@ div#redes ul li:nth-child(3) a:hover {
     section#categorias a {
         font-size: 1.1em;
     }
-    .page-footer h5, .footer-copyright h5 {
-        font-size: 1.3em;
+    .page-footer h5 {
+        font-size: 0.9em;
     }
-    .page-footer ul li a, .footer-copyright ul li a {
-        font-size: 1.1em;
+    .page-footer ul li, .footer-copyright, div#redes ul li a{
+        font-size: 0.8em;
     }
 }
 
@@ -188,11 +188,11 @@ div#redes ul li:nth-child(3) a:hover {
     section#categorias a {
         font-size: 1.1em;
     }
-    .page-footer h5, .footer-copyright h5 {
-        font-size: 1.3em;
+    .page-footer h5 {
+        font-size: 0.9em;
     }
-    .page-footer ul li a, .footer-copyright ul li a {
-        font-size: 1.1em;
+    .page-footer ul li, .footer-copyright, div#redes ul li a{
+        font-size: 0.8em;
     }
 }
 
@@ -209,11 +209,11 @@ div#redes ul li:nth-child(3) a:hover {
     section#categorias a {
         font-size: 1.1em;
     }
-    .page-footer h5, .footer-copyright h5 {
-        font-size: 1.3em;
+    .page-footer h5 {
+        font-size: 0.9em;
     }
-    .page-footer ul li a, .footer-copyright ul li a {
-        font-size: 1.1em;
+    .page-footer ul li, .footer-copyright, div#redes ul li a{
+        font-size: 0.8em;
     }
 }
 
@@ -231,9 +231,9 @@ div#redes ul li:nth-child(3) a:hover {
         font-size: 1.1em;
     }
     .page-footer h5 {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .page-footer ul li, .footer-copyright, div#redes ul li a{
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 }

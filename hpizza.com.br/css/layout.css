@@ -32,7 +32,7 @@ div#letrasbanner {
     margin-right: 100px;
 }
 
-section#top nav ul li:nth-child(5) {
+section#top nav ul li:nth-child(4) {
     border-left: 1px solid white;
 }
 
@@ -152,6 +152,43 @@ div#redes ul li:nth-child(3) a:hover {
     color: #fff;
 }
 
+/* Login modal */
+
+a.btn {
+    margin-top: 30%;
+}
+
+.modal {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0;
+    margin: 0;
+}
+.recuperar{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 3%;
+    
+}
+.cadastrar{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1024px) {
@@ -170,7 +207,7 @@ div#redes ul li:nth-child(3) a:hover {
     .page-footer h5 {
         font-size: 0.9em;
     }
-    .page-footer ul li, .footer-copyright, div#redes ul li a{
+    .page-footer ul li, .footer-copyright, div#redes ul li a {
         font-size: 0.8em;
     }
 }
@@ -191,7 +228,7 @@ div#redes ul li:nth-child(3) a:hover {
     .page-footer h5 {
         font-size: 0.9em;
     }
-    .page-footer ul li, .footer-copyright, div#redes ul li a{
+    .page-footer ul li, .footer-copyright, div#redes ul li a {
         font-size: 0.8em;
     }
 }
@@ -212,7 +249,7 @@ div#redes ul li:nth-child(3) a:hover {
     .page-footer h5 {
         font-size: 0.9em;
     }
-    .page-footer ul li, .footer-copyright, div#redes ul li a{
+    .page-footer ul li, .footer-copyright, div#redes ul li a {
         font-size: 0.8em;
     }
 }
@@ -233,7 +270,7 @@ div#redes ul li:nth-child(3) a:hover {
     .page-footer h5 {
         font-size: 0.9em;
     }
-    .page-footer ul li, .footer-copyright, div#redes ul li a{
+    .page-footer ul li, .footer-copyright, div#redes ul li a {
         font-size: 0.8em;
     }
 }

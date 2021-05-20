@@ -293,7 +293,7 @@ div#redes ul li:nth-child(3) a:hover {
 
 div#cadastro {
     background-color: #fff;
-    max-width: 600px;
+    max-width: 700px;
     padding: 10px;
     border-style: solid;
     border-color: #ff9f46;
@@ -318,9 +318,4 @@ div#cadastro h6{
     padding-left: 10px;
     font-size: 1.5em;
     
-}
-
-div#cadastrar{
-    padding: 10px;
-    border-radius: 10px;
 }

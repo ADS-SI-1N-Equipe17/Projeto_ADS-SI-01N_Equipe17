@@ -52,6 +52,7 @@ section#categorias p, section#mid p {
 /* Login modal */
 
 a.btn {
+    font-family: 'Montserrat', sans-serif;
     margin-top: 30%;
 }
 
@@ -62,6 +63,7 @@ a.btn {
 }
 
 input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     margin-top: 40px;
 }
@@ -287,4 +289,24 @@ div#redes ul li:nth-child(3) a:hover {
     .modal {
         max-width: 100%;
     }
+}
+
+div#cadastro {
+    background-color: #fff;
+    max-width: 800px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ff9f46;
+    border-radius: 15px;
+}
+
+div#cadastro h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #ff9f46;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-left: 3px solid #ff9f46;
+    padding-left: 8px;
+    font-size: 1.5em;
+    
 }

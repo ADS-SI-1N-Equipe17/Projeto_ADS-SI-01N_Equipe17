@@ -90,6 +90,49 @@ input[type="submit"] {
     margin-top: 3%;
 }
 
+/* formulario */
+.input-field input:focus+label{
+    color: #ff9f46 !important;
+}
+
+.row .input-field input:focus{
+    border-bottom: 1px solid #ff9f46 !important;
+    box-shadow: 0 1px 0 0 #ff9f46 !important
+}
+
+div#login i{
+    color: #ff9f46;
+}
+div#cadastro {
+    background-color: #fff;
+    max-width: 700px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ff9f46;
+    border-radius: 10px;
+}
+
+div#cadastro h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff9f46;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-left: 3px solid #ff9f46;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+
+div#cadastro h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-left: 3px solid #ff9f46;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+
+
 /*titulos*/
 
 h3 {
@@ -291,44 +334,5 @@ div#redes ul li:nth-child(3) a:hover {
     }
 }
 
-div#cadastro {
-    background-color: #fff;
-    max-width: 700px;
-    padding: 10px;
-    border-style: solid;
-    border-color: #ff9f46;
-    border-radius: 10px;
-}
 
-div#cadastro h4 {
-    font-family: 'Montserrat', sans-serif;
-    color: #ff9f46;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-left: 3px solid #ff9f46;
-    padding-left: 10px;
-    font-size: 1.5em;
-}
 
-div#cadastro h6 {
-    font-family: 'Montserrat', sans-serif;
-    color: #000000;
-    font-weight: 500;
-    text-transform: uppercase;
-    border-left: 3px solid #ff9f46;
-    padding-left: 10px;
-    font-size: 1.5em;
-}
-
-.input-field input:focus+label{
-    color: #ff9f46 !important;
-}
-
-.row .input-field input:focus{
-    border-bottom: 1px solid #ff9f46 !important;
-    box-shadow: 0 1px 0 0 #ff9f46 !important
-}
-
-div#login i{
-    color: #ff9f46;
-}

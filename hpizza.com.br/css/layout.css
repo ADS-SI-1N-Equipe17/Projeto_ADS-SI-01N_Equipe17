@@ -299,7 +299,8 @@ div#cadastro {
     border-color: #ff9f46;
     border-radius: 10px;
 }
-div#cadastro h4{
+
+div#cadastro h4 {
     font-family: 'Montserrat', sans-serif;
     color: #ff9f46;
     font-weight: 600;
@@ -307,9 +308,9 @@ div#cadastro h4{
     border-left: 3px solid #ff9f46;
     padding-left: 10px;
     font-size: 1.5em;
-    
 }
-div#cadastro h6{
+
+div#cadastro h6 {
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     font-weight: 500;
@@ -317,5 +318,17 @@ div#cadastro h6{
     border-left: 3px solid #ff9f46;
     padding-left: 10px;
     font-size: 1.5em;
-    
+}
+
+.input-field input:focus+label{
+    color: #ff9f46 !important;
+}
+
+.row .input-field input:focus{
+    border-bottom: 1px solid #ff9f46 !important;
+    box-shadow: 0 1px 0 0 #ff9f46 !important
+}
+
+div#login i{
+    color: #ff9f46;
 }

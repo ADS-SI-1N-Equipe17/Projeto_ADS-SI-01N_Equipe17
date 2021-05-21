@@ -49,18 +49,46 @@ section#categorias p, section#mid p {
     color: #4d4d4d;
 }
 
+/* Pagina sobre */
+
+div#sobre h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img#logosobre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+div#sobre {
+    background-color: #fff;
+    max-width: 1000px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #ff9f46;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+div#sobre p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4d4d4d;
+}
+
 /* Login modal */
 
 a.btn {
     font-family: 'Montserrat', sans-serif;
     margin-top: 30%;
-    
 }
 
 .modal {
     max-width: 30%;
     max-height: 100%;
-    
 }
 
 input[type="submit"] {
@@ -68,7 +96,6 @@ input[type="submit"] {
     width: 100%;
     margin-top: 40px;
     font-weight: 500;
-    
 }
 
 .modal-close {

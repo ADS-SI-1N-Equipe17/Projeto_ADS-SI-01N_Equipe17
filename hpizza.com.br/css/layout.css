@@ -42,13 +42,6 @@ section#categorias {
     background-color: #fff;
 }
 
-section#categorias p, section#mid p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 19px;
-    color: #4d4d4d;
-}
-
 /* Pagina sobre */
 
 div#sobre h4 {
@@ -223,6 +216,48 @@ section#mid {
     padding-bottom: 1em;
 }
 
+section#categorias p, section#mid p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #4d4d4d;
+}
+
+section#mid-sobre {
+    background-image: url(../img/pizzafundo.png);
+    background-color: rgba(255, 236, 217, 0.7);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#mid-cadastrar {
+    background-image: url(../img/pizzafundo.png);
+    background-color: rgba(255, 236, 217, 0.7);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#mid-termos {
+    background-image: url(../img/pizzafundo.png);
+    background-color: rgba(255, 236, 217, 0.7);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#mid-recuperarsenha {
+    background-image: url(../img/pizzafundo.png);
+    background-color: rgba(255, 236, 217, 0.7);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*redes sociais*/
 
 div#redes ul li {

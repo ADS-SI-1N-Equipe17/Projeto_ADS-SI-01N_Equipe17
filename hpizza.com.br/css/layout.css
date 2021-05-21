@@ -89,8 +89,10 @@ input[type="submit"] {
     font-weight: 500;
     margin-top: 3%;
 }
+
 /* termos */
-div#termos{
+
+div#termos {
     background-color: #fff;
     max-width: 1000px;
     padding: 15px;
@@ -99,7 +101,8 @@ div#termos{
     border-radius: 10px;
     text-align: justify;
 }
-div#termos h6{
+
+div#termos h6 {
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     font-weight: 600;
@@ -107,7 +110,8 @@ div#termos h6{
     padding-left: 5px;
     font-size: 1.1em;
 }
-div#termos p{
+
+div#termos p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -115,18 +119,20 @@ div#termos p{
 }
 
 /* formulario */
-.input-field input:focus+label{
+
+.input-field input:focus+label {
     color: #ff9f46 !important;
 }
 
-.row .input-field input:focus{
+.row .input-field input:focus {
     border-bottom: 1px solid #ff9f46 !important;
     box-shadow: 0 1px 0 0 #ff9f46 !important
 }
 
-div#login i{
+div#login i {
     color: #ff9f46;
 }
+
 div#cadastro {
     background-color: #fff;
     max-width: 700px;
@@ -155,7 +161,6 @@ div#cadastro h6 {
     padding-left: 10px;
     font-size: 1.5em;
 }
-
 
 /*titulos*/
 
@@ -357,6 +362,3 @@ div#redes ul li:nth-child(3) a:hover {
         max-width: 100%;
     }
 }
-
-
-

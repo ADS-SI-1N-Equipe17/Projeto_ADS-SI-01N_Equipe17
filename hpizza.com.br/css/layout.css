@@ -456,3 +456,12 @@ div#redes ul li:nth-child(3) a:hover {
         background-size: cover;
     }
 }
+
+div#card1{
+    height: 400px; /* Your height here */
+    overflow: hidden;
+}
+div#card1 p{
+    font-size: 1em;
+    text-align: left;
+}

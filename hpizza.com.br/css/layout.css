@@ -167,7 +167,9 @@ div#cadastro {
     border-radius: 10px;
 }
 
-section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4{
+/* Títulos mid */
+
+section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4 {
     font-family: 'Montserrat', sans-serif;
     color: #ff9f46;
     font-weight: 600;

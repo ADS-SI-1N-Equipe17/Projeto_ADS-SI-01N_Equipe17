@@ -224,7 +224,7 @@ section#categorias p, section#mid p {
     color: #4d4d4d;
 }
 
-section#mid-sobre {
+section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre {
     background-image: url(../img/pizzafundo.png);
     background-color: rgba(255, 236, 217, 0.7);
     padding-top: 1em;
@@ -233,32 +233,6 @@ section#mid-sobre {
     background-size: cover;
 }
 
-section#mid-cadastrar {
-    background-image: url(../img/pizzafundo.png);
-    background-color: rgba(255, 236, 217, 0.7);
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-section#mid-termos {
-    background-image: url(../img/pizzafundo.png);
-    background-color: rgba(255, 236, 217, 0.7);
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-section#mid-recuperarsenha {
-    background-image: url(../img/pizzafundo.png);
-    background-color: rgba(255, 236, 217, 0.7);
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 /*redes sociais*/
 
 div#redes ul li {

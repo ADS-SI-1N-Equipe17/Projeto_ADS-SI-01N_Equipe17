@@ -115,9 +115,9 @@ input[type="submit"] {
     margin-top: 3%;
 }
 
-/* termos */
+/* container mid */
 
-div#termos {
+div#termos, div#cardapio, div#sobre, div#cadastro {
     background-color: #fff;
     max-width: 1000px;
     padding: 15px;
@@ -127,7 +127,17 @@ div#termos {
     text-align: justify;
 }
 
-div#termos h6 {
+div#recuperarsenha {
+    background-color: #fff;
+    max-width: 700px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #ff9f46;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+div#termos h6, div#cardapio h6, div#cardapio h6, div#sobre h6, div#cadastro h6, div#recuperarsenha h6 {
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     font-weight: 600;
@@ -136,7 +146,7 @@ div#termos h6 {
     font-size: 1.1em;
 }
 
-div#termos p {
+div#termos p, div#cardapio p, div#cardapio p, div#sobre p, div#cadastro p, div#recuperarsenha p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -169,7 +179,7 @@ div#cadastro {
 
 /* Títulos mid */
 
-section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4 {
+section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4 {
     font-family: 'Montserrat', sans-serif;
     color: #ff9f46;
     font-weight: 600;
@@ -226,7 +236,7 @@ section#categorias p, section#mid p {
     color: #4d4d4d;
 }
 
-section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre {
+section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio {
     background-image: url(../img/pizzafundo.png);
     background-color: rgba(255, 236, 217, 0.7);
     padding-top: 1em;

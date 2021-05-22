@@ -167,14 +167,14 @@ div#cadastro {
     border-radius: 10px;
 }
 
-div#cadastro h4 {
+section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4{
     font-family: 'Montserrat', sans-serif;
     color: #ff9f46;
     font-weight: 600;
     text-transform: uppercase;
     border-left: 3px solid #ff9f46;
     padding-left: 10px;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 div#cadastro h6 {

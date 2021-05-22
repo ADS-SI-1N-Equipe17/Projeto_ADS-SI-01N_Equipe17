@@ -126,6 +126,15 @@ div#termos, div#cardapio, div#sobre, div#cadastro {
     border-radius: 10px;
     text-align: justify;
 }
+div#cardapio{
+    background-color: #fff;
+    max-width: 1920px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #ff9f46;
+    border-radius: 10px;
+    text-align: justify;
+}
 
 div#recuperarsenha {
     background-color: #fff;

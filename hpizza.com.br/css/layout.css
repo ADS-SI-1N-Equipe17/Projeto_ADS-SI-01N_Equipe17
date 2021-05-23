@@ -338,6 +338,12 @@ div#redes ul li:nth-child(3) a:hover {
 .banner-top {
     background: url('../img/banner3.jpg') no-repeat center bottom;
 }
+.card{
+    max-height: 580px; 
+    overflow: hidden;
+    border-radius: 10px;
+
+}
 
 .card .card-content p {
     font-size: 17px !important;

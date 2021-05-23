@@ -79,6 +79,8 @@ div#sobre p {
 a.btn {
     font-family: 'Montserrat', sans-serif;
     margin-top: 30%;
+    border-radius: 15px;
+    color: #fff;
 }
 
 .modal {
@@ -88,9 +90,11 @@ a.btn {
 
 input[type="submit"] {
     font-family: 'Montserrat', sans-serif;
+    color: #fff;
     width: 100%;
     margin-top: 40px;
     font-weight: 500;
+    border-radius: 15px;
 }
 
 .modal-close {
@@ -106,6 +110,7 @@ input[type="submit"] {
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 3%;
+    
 }
 
 .cadastrar {
@@ -254,6 +259,30 @@ section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#m
     background-size: cover;
 }
 
+/* cards cardapio */
+div#card1{
+    height: 460px; 
+    overflow: hidden;
+    border-radius: 10px;
+}
+div#card1 p{
+    font-size: 1em;
+    text-align: left;
+}
+
+input#adicionar{
+    background-color: #ff9f46;
+    margin-top: 5px;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+input#adicionar:hover {     
+    background-color: #64dd17;    
+}
+
+
 /*redes sociais*/
 
 div#redes ul li {
@@ -316,7 +345,7 @@ div#redes ul li:nth-child(3) a:hover {
 }
 
 .page-footer {
-    background-color: rgba(163, 98, 0, 0.8);
+    background-color: hsla(36, 100%, 32%, 0.8);
 }
 
 .page-footer .footer-copyright {
@@ -457,11 +486,3 @@ div#redes ul li:nth-child(3) a:hover {
     }
 }
 
-div#card1{
-    height: 400px; /* Your height here */
-    overflow: hidden;
-}
-div#card1 p{
-    font-size: 1em;
-    text-align: left;
-}

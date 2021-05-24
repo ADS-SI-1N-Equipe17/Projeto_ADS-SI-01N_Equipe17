@@ -2,7 +2,7 @@
 /* formatações gerais */
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 /* formatações da section top */
@@ -20,7 +20,7 @@ section#top nav {
 }
 
 section#top nav ul li a {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -45,7 +45,7 @@ section#categorias {
 /* Pagina sobre */
 
 div#sobre h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     font-weight: 600;
 }
 
@@ -68,7 +68,7 @@ div#sobre {
 }
 
 div#sobre p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
     font-size: 15px;
     color: #4d4d4d;
@@ -77,7 +77,7 @@ div#sobre p {
 /* Login modal */
 
 a.btn {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     margin-top: 30%;
     border-radius: 15px;
     color: #fff;
@@ -89,7 +89,7 @@ a.btn {
 }
 
 input[type="submit"] {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #fff;
     width: 100%;
     margin-top: 40px;
@@ -106,7 +106,7 @@ input[type="submit"] {
 }
 
 .recuperar {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 3%;
@@ -114,7 +114,7 @@ input[type="submit"] {
 }
 
 .cadastrar {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 3%;
@@ -122,7 +122,8 @@ input[type="submit"] {
 
 /* container mid */
 
-div#termos, div#cardapio, div#sobre, div#cadastro {
+div#termos, div#cardapio, div#sobre, div#cadastro, div#carrinho {
+    font-family: 'Montserrat', sans-serif !important;
     background-color: #fff;
     max-width: 1000px;
     padding: 15px;
@@ -131,6 +132,25 @@ div#termos, div#cardapio, div#sobre, div#cadastro {
     border-radius: 10px;
     text-align: justify;
 }
+div#carrinho h4{
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: left;
+
+}
+div#carrinho p{
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 1em;
+
+}
+div#carrinho a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	
+} 
+
 div#cardapio{
     background-color: #fff;
     max-width: 1920px;
@@ -152,7 +172,7 @@ div#recuperarsenha {
 }
 
 div#termos h6, div#cardapio h6, div#cardapio h6, div#sobre h6, div#cadastro h6, div#recuperarsenha h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #000000;
     font-weight: 600;
     text-transform: uppercase;
@@ -161,7 +181,7 @@ div#termos h6, div#cardapio h6, div#cardapio h6, div#sobre h6, div#cadastro h6, 
 }
 
 div#termos p, div#cardapio p, div#cardapio p, div#sobre p, div#cadastro p, div#recuperarsenha p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
     font-size: 15px;
     color: #4d4d4d;
@@ -194,7 +214,7 @@ div#cadastro {
 /* Títulos mid */
 
 section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #ff9f46;
     font-weight: 600;
     text-transform: uppercase;
@@ -204,7 +224,7 @@ section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, 
 }
 
 div#cadastro h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #000000;
     font-weight: 500;
     text-transform: uppercase;
@@ -216,7 +236,7 @@ div#cadastro h6 {
 /*titulos*/
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #000000;
     font-weight: 600;
     text-transform: uppercase;
@@ -226,7 +246,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #ff9f46;
     font-weight: 500;
     text-transform: uppercase;
@@ -250,7 +270,7 @@ section#categorias p, section#mid p {
     color: #4d4d4d;
 }
 
-section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio {
+section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho {
     background-image: url(../img/pizzafundo.png);
     background-color: rgba(255, 236, 217, 0.7);
     padding-top: 1em;
@@ -266,7 +286,7 @@ div#card1{
     border-radius: 10px;
 }
 div#cardapio h5{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #000000;
     font-size: 1.8em;
     font-weight: 400;
@@ -354,7 +374,7 @@ div#redes ul li:nth-child(3) a:hover {
 }
 
 .card-content a {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #4d4d4d !important;
     font-weight: 500;
     text-transform: uppercase;
@@ -375,16 +395,16 @@ div#redes ul li:nth-child(3) a:hover {
 /* media queries */
 
 @media screen and (max-width: 1024px) {
-    section#categorias p, section#mid p {
+    section#categorias p, section#mid p, section#mid-termos p, section#mid-recuperarsenha p, section#mid-cadastrar p, section#mid-sobre p, section#mid-cardapio p, section#mid-carrinho p {
         font-size: 1.1em;
     }
-    section#categorias h3, section#mid h3 {
+    section#categorias h3, section#mid h3, section#mid-termos h3, section#mid-recuperarsenha h3, section#mid-cadastrar h3, section#mid-sobre h3, section#mid-cardapio h3, section#mid-carrinho h3 {
         font-size: 1.9em;
     }
-    section#categorias h4, section#mid h4 {
+    section#categorias h4, section#mid h4, section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4, section#mid-carrinho h4 {
         font-size: 1.5em;
     }
-    section#categorias a {
+    section#categorias a, section#mid a, section#mid-termos a, section#mid-recuperarsenha a, section#mid-cadastrar a, section#mid-sobre a, section#mid-cardapio a, section#mid-carrinho a {
         font-size: 1.1em;
     }
     .page-footer h5 {
@@ -396,7 +416,7 @@ div#redes ul li:nth-child(3) a:hover {
     .modal {
         max-width: 50%;
     }
-    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre {
+    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho {
         background-image: url(../img/pizzafundo-1024.png);
         background-color: rgba(255, 236, 217, 0.7);
         padding-top: 1em;
@@ -407,16 +427,16 @@ div#redes ul li:nth-child(3) a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    section#categorias p, section#mid p {
+    section#categorias p, section#mid p, section#mid-termos p, section#mid-recuperarsenha p, section#mid-cadastrar p, section#mid-sobre p, section#mid-cardapio p, section#mid-carrinho p {
         font-size: 1.1em;
     }
-    section#categorias h3, section#mid h3 {
+    section#categorias h3, section#mid h3, section#mid-termos h3, section#mid-recuperarsenha h3, section#mid-cadastrar h3, section#mid-sobre h3, section#mid-cardapio h3, section#mid-carrinho h3 {
         font-size: 1.9em;
     }
-    section#categorias h4, section#mid h4 {
+    section#categorias h4, section#mid h4, section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4, section#mid-carrinho h4 {
         font-size: 1.5em;
     }
-    section#categorias a {
+    section#categorias a, section#mid a, section#mid-termos a, section#mid-recuperarsenha a, section#mid-cadastrar a, section#mid-sobre a, section#mid-cardapio a, section#mid-carrinho a {
         font-size: 1.1em;
     }
     .page-footer h5 {
@@ -428,7 +448,7 @@ div#redes ul li:nth-child(3) a:hover {
     .modal {
         max-width: 60%;
     }
-    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre {
+    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho {
         background-image: url(../img/pizzafundo-768.png);
         background-color: rgba(255, 236, 217, 0.7);
         padding-top: 1em;
@@ -439,16 +459,16 @@ div#redes ul li:nth-child(3) a:hover {
 }
 
 @media screen and (max-width: 480px) {
-    section#categorias p, section#mid p {
+    section#categorias p, section#mid p, section#mid-termos p, section#mid-recuperarsenha p, section#mid-cadastrar p, section#mid-sobre p, section#mid-cardapio p, section#mid-carrinho p {
         font-size: 1.1em;
     }
-    section#categorias h3, section#mid h3 {
+    section#categorias h3, section#mid h3, section#mid-termos h3, section#mid-recuperarsenha h3, section#mid-cadastrar h3, section#mid-sobre h3, section#mid-cardapio h3, section#mid-carrinho h3 {
         font-size: 1.9em;
     }
-    section#categorias h4, section#mid h4 {
+    section#categorias h4, section#mid h4, section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4, section#mid-carrinho h4 {
         font-size: 1.5em;
     }
-    section#categorias a {
+    section#categorias a, section#mid a, section#mid-termos a, section#mid-recuperarsenha a, section#mid-cadastrar a, section#mid-sobre a, section#mid-cardapio a, section#mid-carrinho a {
         font-size: 1.1em;
     }
     .page-footer h5 {
@@ -460,7 +480,7 @@ div#redes ul li:nth-child(3) a:hover {
     .modal {
         max-width: 100%;
     }
-    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre {
+    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho{
         background-image: url(../img/pizzafundo-480.png);
         background-color: rgba(255, 236, 217, 0.7);
         padding-top: 1em;
@@ -471,16 +491,16 @@ div#redes ul li:nth-child(3) a:hover {
 }
 
 @media screen and (max-width: 320px) {
-    section#categorias p, section#mid p {
+    section#categorias p, section#mid p, section#mid-termos p, section#mid-recuperarsenha p, section#mid-cadastrar p, section#mid-sobre p, section#mid-cardapio p, section#mid-carrinho p {
         font-size: 1.1em;
     }
-    section#categorias h3, section#mid h3 {
+    section#categorias h3, section#mid h3, section#mid-termos h3, section#mid-recuperarsenha h3, section#mid-cadastrar h3, section#mid-sobre h3, section#mid-cardapio h3, section#mid-carrinho h3 {
         font-size: 1.9em;
     }
-    section#categorias h4, section#mid h4 {
+    section#categorias h4, section#mid h4, section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4, section#mid-carrinho h4 {
         font-size: 1.5em;
     }
-    section#categorias a {
+    section#categorias a, section#mid a, section#mid-termos a, section#mid-recuperarsenha a, section#mid-cadastrar a, section#mid-sobre a, section#mid-cardapio a, section#mid-carrinho a {
         font-size: 1.1em;
     }
     .page-footer h5 {
@@ -492,7 +512,7 @@ div#redes ul li:nth-child(3) a:hover {
     .modal {
         max-width: 100%;
     }
-    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre {
+    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho {
         background-image: url(../img/pizzafundo-320.png);
         background-color: rgba(255, 236, 217, 0.7);
         padding-top: 1em;

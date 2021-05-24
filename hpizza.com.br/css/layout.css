@@ -281,7 +281,7 @@ section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#m
 
 /* cards cardapio */
 div#card1{
-    height: 460px; 
+    max-height: 460px; 
     overflow: hidden;
     border-radius: 10px;
 }
@@ -404,6 +404,12 @@ div#redes ul li:nth-child(3) a:hover {
     section#categorias h4, section#mid h4, section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4, section#mid-carrinho h4 {
         font-size: 1.5em;
     }
+    section#categorias h5, section#mid h5, section#mid-termos h5, section#mid-recuperarsenha h5, section#mid-cadastrar h5, section#mid-sobre h5, section#mid-cardapio h5, section#mid-carrinho h5 {
+        font-size: 1.3em;
+    }
+    section#categorias h6, section#mid h6, section#mid-termos h6, section#mid-recuperarsenha h6, section#mid-cadastrar h6, section#mid-sobre h6, section#mid-cardapio h6, section#mid-carrinho h6 {
+        font-size: 1.3em;
+    }
     section#categorias a, section#mid a, section#mid-termos a, section#mid-recuperarsenha a, section#mid-cadastrar a, section#mid-sobre a, section#mid-cardapio a, section#mid-carrinho a {
         font-size: 1.1em;
     }
@@ -435,6 +441,12 @@ div#redes ul li:nth-child(3) a:hover {
     }
     section#categorias h4, section#mid h4, section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4, section#mid-carrinho h4 {
         font-size: 1.5em;
+    }
+    section#categorias h5, section#mid h5, section#mid-termos h5, section#mid-recuperarsenha h5, section#mid-cadastrar h5, section#mid-sobre h5, section#mid-cardapio h5, section#mid-carrinho h5 {
+        font-size: 1.3em;
+    }
+    section#categorias h6, section#mid h6, section#mid-termos h6, section#mid-recuperarsenha h6, section#mid-cadastrar h6, section#mid-sobre h6, section#mid-cardapio h6, section#mid-carrinho h6 {
+        font-size: 1.3em;
     }
     section#categorias a, section#mid a, section#mid-termos a, section#mid-recuperarsenha a, section#mid-cadastrar a, section#mid-sobre a, section#mid-cardapio a, section#mid-carrinho a {
         font-size: 1.1em;
@@ -468,6 +480,12 @@ div#redes ul li:nth-child(3) a:hover {
     section#categorias h4, section#mid h4, section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4, section#mid-carrinho h4 {
         font-size: 1.5em;
     }
+    section#categorias h5, section#mid h5, section#mid-termos h5, section#mid-recuperarsenha h5, section#mid-cadastrar h5, section#mid-sobre h5, section#mid-cardapio h5, section#mid-carrinho h5 {
+        font-size: 1.3em;
+    }
+    section#categorias h6, section#mid h6, section#mid-termos h6, section#mid-recuperarsenha h6, section#mid-cadastrar h6, section#mid-sobre h6, section#mid-cardapio h6, section#mid-carrinho h6 {
+        font-size: 1.3em;
+    }
     section#categorias a, section#mid a, section#mid-termos a, section#mid-recuperarsenha a, section#mid-cadastrar a, section#mid-sobre a, section#mid-cardapio a, section#mid-carrinho a {
         font-size: 1.1em;
     }
@@ -499,6 +517,12 @@ div#redes ul li:nth-child(3) a:hover {
     }
     section#categorias h4, section#mid h4, section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, section#mid-sobre h4, section#mid-cardapio h4, section#mid-carrinho h4 {
         font-size: 1.5em;
+    }
+    section#categorias h5, section#mid h5, section#mid-termos h5, section#mid-recuperarsenha h5, section#mid-cadastrar h5, section#mid-sobre h5, section#mid-cardapio h5, section#mid-carrinho h5 {
+        font-size: 1.3em;
+    }
+    section#categorias h6, section#mid h6, section#mid-termos h6, section#mid-recuperarsenha h6, section#mid-cadastrar h6, section#mid-sobre h6, section#mid-cardapio h6, section#mid-carrinho h6 {
+        font-size: 1.3em;
     }
     section#categorias a, section#mid a, section#mid-termos a, section#mid-recuperarsenha a, section#mid-cadastrar a, section#mid-sobre a, section#mid-cardapio a, section#mid-carrinho a {
         font-size: 1.1em;

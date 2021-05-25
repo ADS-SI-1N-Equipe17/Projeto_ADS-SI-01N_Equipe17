@@ -110,7 +110,6 @@ input[type="submit"] {
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 3%;
-    
 }
 
 .cadastrar {
@@ -132,26 +131,26 @@ div#termos, div#cardapio, div#sobre, div#cadastro, div#carrinho {
     border-radius: 10px;
     text-align: justify;
 }
-div#carrinho h4{
+
+div#carrinho h4 {
     font-family: 'Montserrat', sans-serif !important;
     text-align: left;
-
 }
-div#carrinho p{
+
+div#carrinho p {
     font-family: 'Montserrat', sans-serif !important;
     text-align: center;
     color: #4d4d4d;
     font-size: 1em;
-
 }
-div#carrinho a{
+
+div#carrinho a {
     display: flex;
     align-items: center;
     justify-content: center;
-	
-} 
+}
 
-div#cardapio{
+div#cardapio {
     background-color: #fff;
     max-width: 1920px;
     padding: 15px;
@@ -280,38 +279,45 @@ section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#m
 }
 
 /* cards cardapio */
-div#card1{
-    max-height: 460px; 
+
+div#card1 {
+    max-height: 460px;
     overflow: hidden;
     border-radius: 10px;
 }
-div#cardapio h5{
+
+div#cardapio h5 {
     font-family: 'Montserrat', sans-serif !important;
     color: #000000;
     font-size: 1.8em;
     font-weight: 400;
     text-transform: uppercase;
-    
-
 }
-div#card1 p{
+
+div#card1 p {
     font-size: 1em;
     text-align: left;
 }
 
-input#adicionar{
+input#adicionar {
     background-color: #ff9f46;
     margin-top: 5px;
     border-radius: 15px;
     color: #fff;
     font-weight: 500;
-    
-}
-input#adicionar:hover {     
-    background-color: #64dd17;    
 }
 
+input#adicionar:hover {
+    background-color: #64dd17;
+}
 
+section#mid-cardapio .dropdown-content li>a, .dropdown-content li>span {
+    color: #ff9f46;
+}
+
+section#mid-cardapio .select-wrapper input.select-dropdown {
+    border-bottom: 1px solid #ff9f46;
+}
 
 /*redes sociais*/
 
@@ -358,11 +364,11 @@ div#redes ul li:nth-child(3) a:hover {
 .banner-top {
     background: url('../img/banner3.jpg') no-repeat center bottom;
 }
-.card{
-    max-height: 580px; 
+
+.card {
+    max-height: 580px;
     overflow: hidden;
     border-radius: 10px;
-
 }
 
 .card .card-content p {
@@ -498,7 +504,7 @@ div#redes ul li:nth-child(3) a:hover {
     .modal {
         max-width: 100%;
     }
-    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho{
+    section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho {
         background-image: url(../img/pizzafundo-480.png);
         background-color: rgba(255, 236, 217, 0.7);
         padding-top: 1em;
@@ -545,4 +551,3 @@ div#redes ul li:nth-child(3) a:hover {
         background-size: cover;
     }
 }
-

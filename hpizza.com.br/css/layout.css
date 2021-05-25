@@ -429,7 +429,7 @@ div#redes ul li:nth-child(3) a:hover {
         max-width: 50%;
     }
     section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho {
-        background-image: url(../img/pizzafundo-1024.png);
+        background-image: url(../img/pizzafundo-1024.png) !important;
         background-color: rgba(255, 236, 217, 0.7);
         padding-top: 1em;
         padding-bottom: 1em;
@@ -467,7 +467,7 @@ div#redes ul li:nth-child(3) a:hover {
         max-width: 60%;
     }
     section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho {
-        background-image: url(../img/pizzafundo-768.png);
+        background-image: url(../img/pizzafundo-768.png) !important;
         background-color: rgba(255, 236, 217, 0.7);
         padding-top: 1em;
         padding-bottom: 1em;
@@ -505,7 +505,7 @@ div#redes ul li:nth-child(3) a:hover {
         max-width: 100%;
     }
     section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho {
-        background-image: url(../img/pizzafundo-480.png);
+        background-image: url(../img/pizzafundo-480.png) !important;
         background-color: rgba(255, 236, 217, 0.7);
         padding-top: 1em;
         padding-bottom: 1em;
@@ -543,7 +543,7 @@ div#redes ul li:nth-child(3) a:hover {
         max-width: 100%;
     }
     section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#mid-sobre, section#mid-cardapio, section#mid-carrinho {
-        background-image: url(../img/pizzafundo-320.png);
+        background-image: url(../img/pizzafundo-320.png) !important;
         background-color: rgba(255, 236, 217, 0.7);
         padding-top: 1em;
         padding-bottom: 1em;

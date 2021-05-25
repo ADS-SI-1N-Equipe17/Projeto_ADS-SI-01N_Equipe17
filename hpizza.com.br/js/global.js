@@ -7,3 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("whatsapp-share-btt").href = "https://api.whatsapp.com/send?text=" + conteudo;
 }, false);
 
+
+var select = document.getElementById('tammussarela');
+	var value = select.options[select.selectedIndex].value;
+	console.log(value);

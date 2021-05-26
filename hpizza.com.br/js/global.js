@@ -45,7 +45,7 @@ let confirmarSenha = document.querySelector('#confirmar-senha')
 let labelConfirmarsenha = document.querySelector('#labelConfirmar-senha')
 let validConfirmarsenha = false
 
-//variaveis dos campos cadastrados
+//outros campos cadastrados
 
 let email = document.getElementById("email")
 
@@ -110,8 +110,8 @@ function cadastrar() {
 
   //validar cadastro
   if (validNome && validSenha && validConfirmarsenha) {
-    alert(`Seja bem vindo ${nome.value} !`)
-    //criando o JSON após o cadastro
+    alert(`Usuário cadastrado com sucesso!`)
+    //criando o JSON após o cadastro para armazenar no localStorage
     let UsuariosCad = JSON.parse(localStorage.getItem('UsuariosCad') || '[]')
 
     UsuariosCad.push(
@@ -124,12 +124,11 @@ function cadastrar() {
         telCad: tel.value,
         nascCad: nasc.value
 
-
       }
     )
-    localStorage.setItem('UsuariosCad', JSON.stringify(UsuariosCad))
   } else {
     alert('Preencha os campos para prosseguir com o cadastro.')
   }
 
 }
+

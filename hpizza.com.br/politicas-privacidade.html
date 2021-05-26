@@ -68,7 +68,7 @@
             <!--.sidenav mobile-->
             <!--modal login-->
             <div class="row">
-                <div class="col s12 m8 offset-m4 l12">
+                <div class="col s12 m4 offset-m4">
                     <div class="modal" id="login">
                         <h5 class="modal-close">&#10005;</h5>
                         <div class="modal-content">
@@ -76,7 +76,7 @@
                             <br>
                             <form name="modal-login" action="#" method="POST"
                                 enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
-                                <!--email-->
+                                <!--usuário-->
                                 <div class="row">
                                     <div class="input-field">
                                         <i class="material-icons prefix">person</i>
@@ -87,7 +87,7 @@
                                 </div>
                                 <!--senha-->
                                 <div class="row">
-                                    <div class="input-field">
+                                    <div class="input-field s12">
                                         <i class="material-icons prefix">lock</i>
                                         <input type="password" id="senhalogin" maxlength="25" required>
                                         <label for="senhalogin">Senha</label>
@@ -95,7 +95,7 @@
                                     </div>
                                 </div>
                                 <!--recuperar-->
-                                <div class="recuperar">
+                                <div class="recuperar s12">
                                     <a href="recuperarsenha.html">Esqueceu sua senha?</a>
                                 </div>
                                 <!--cadastrar-->
@@ -103,8 +103,7 @@
                                     <a href="cadastrar.html">Cadastre-se</a>
                                 </div>
                                 <!--botão submit-->
-                                <div class="row"><input type="submit" onclick="logar()" value="Entrar"
-                                        class="btn light-green accent-4 btn-large"></div>
+                                <input type="submit" value="Entrar" class="btn light-green accent-4 btn-large">
                             </form>
                         </div>
                         <!--.modal-content-->
@@ -122,144 +121,29 @@
         <!-- #letrasbanner -->
     </section>
     <!--.top-->
-    <!-- Cards -->
-    <section id="categorias">
-        <div class="container">
-            <header>
-                <h3>Categorias</h3>
-            </header>
-            <p>Diversos sabores de pizza desde a clássica Mussarela até a mais premium.</p>
-            <div class="row">
-                <!-- Card 1 -->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-green waves-block">
-                            <a href="cardapio.html#classicas"><img src="img/classicas.jpg" alt="pizzas classicas"
-                                    class="responsive-img"></a>
-                            <div class="card-content">
-                                <header>
-                                    <a href="cardapio.html#classicas">
-                                        <h4>Clássicas</h4>
-                                    </a>
-                                </header>
-                                <a href="cardapio.html#classicas">
-                                    <p>Mussarela, Calabresa, Margherita, Bauru, Portuguesa e etc.</p>
-                                </a>
-                                <div class="card-action"></div>
-                                <a href="cardapio.html#classicas">Visualizar</a>
-                            </div>
-                            <!--card-content-->
-                        </div>
-                        <!--card-image-->
-                    </div>
-                    <!--.card-->
-                </div>
-                <!--.col-->
-                <!-- Card 2 -->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-green waves-block">
-                            <a href="cardapio.html#especiais"><img src="img/especiais.jpg" alt="pizzas especiais"
-                                    class="responsive-img"></a>
-                            <div class="card-content">
-                                <header>
-                                    <a href="cardapio.html#especiais">
-                                        <h4>Especiais</h4>
-                                    </a>
-                                </header>
-                                <a href="cardapio.html#especiais">
-                                    <p>3 Queijos, Frango com requeijão, Calabresa Especial e etc.
-                                    </p>
-                                </a>
-                                <div class="card-action"></div>
-                                <a href="cardapio.html#especiais">Visualizar</a>
-                            </div>
-                            <!--.card-content-->
-                        </div>
-                        <!--.card-image-->
-                    </div>
-                    <!--.card-->
-                </div>
-                <!--.col-->
-                <!-- Card 3 -->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-green waves-block">
-                            <a href="cardapio.html#premium"><img src="img/premium.jpg" alt="pizzas premium"
-                                    class="responsive-img"></a>
-                            <div class="card-content">
-                                <header>
-                                    <a href="cardapio.html#premium">
-                                        <h4>Premium</h4>
-                                    </a>
-                                </header>
-                                <a href="cardapio.html#premium">
-                                    <p>4 Queijos, Corn & Bacon, Pepperrock, Extravaganzza e etc.</p>
-                                </a>
-                                <div class="card-action"></div>
-                                <a href="cardapio.html#premium">Visualizar</a>
-                            </div>
-                            <!--.card-content-->
-                        </div>
-                        <!--.card-image-->
-                    </div>
-                    <!--.card-->
-                </div>
-                <!--.col-->
-            </div>
-            <!--.row-->
+    <!--termos de uso-->
+    <section id="mid-termos">
+        <div class="container" id="termos">
+            <h4>Política de Privacidade</h4>
+            <br>
+            <p>House Pizza, empresa inscrita no CNPJ sob o n° 72.330.403/0001-00, informa nesta declaração de proteção de dados quais consentimentos foram dados para autorizar a utilização e processamento dos dados pessoais do usuário para fins de publicidade(e-mail, newsletter, etc.).</p>
+            <br>
+            <h6>1. Que Informações Obtemos</h6>
+            <p>Somos autorizados a levantar dados pessoais, assim considerados os dados de estoque (por exemplo: nome, endereço e e-mail do usuário). Utilizamos e processamos os dados pessoais do usuário para fins de constituição, realização e execução do contrato de utilização e dos contratos com sites de compra coletiva. Isto abrange a transmissão dos seus dados a terceiros e a utilização por estes, na medida em que este procedimento é necessário para a constituição, realização e execução do contrato e dos contratos de compra concluídos.</p>
+            <h6>2. O que são “cookies” e qual a sua utilidade.</h6>
+            <p>Utilizamos Cookies em diferentes partes do site para tornar a visita do nosso site mais atraente e possibilitar o uso de certas funções. Cookies são pequenos arquivos de texto que são armazenados em seu computador. A maioria dos Cookies utilizados em nosso site serão apagados do disco rígido do usuário automaticamente ao encerrar a sessão do navegador (chamados Cookies de sessão). Outros tipos de Cookies permanecerão no computador do usuário e possibilitam a identificação daquele computador na próxima visita do nosso site (chamados Cookies permanentes).</p>
+            <h6>3. Como serão utilizadas estas informações.</h6>
+            <p>A House Pizza utiliza diferentes sistemas de tracking de terceiros, como por exemplo Google Analytics, um serviço de análise de internet da Google Inc. O Google Analytics utiliza Cookies (arquivos de texto) que são armazenados no computador do usuário e possibilitam a análise de utilização do site. As informações geradas a partir dos Cookies a respeito da utilização do site (incluindo o seu endereço IP) serão transmitidos a um servidor nos Estados Unidos e lá armazenados. O Google utilizará essas informações para analisar a utilização do site para fornecer relatórios sobre a utilização aos operadores de sites bem como o fornecimento de outros serviços ligados à utilização do site e da internet. O Google transmitirá também essas informações a terceiros, caso seja imposto por lei ou no caso em que o terceiro processe esses dados por ordem do Google. O Google não ligará seu endereço IP a outros dados. Ao utilizar o site você concorda com o processamento dos dados levantados pelo Google na forma e na finalidade anteriormente descrita.</p>
+            <h6>4. Pedido de exclusão do banco de dados.</h6>
+            <p>O usuário pode cancelar a sua inclusão nestes programas de publicidade a todo momento através do link no seu e-mail ou escrevendo para contato@hpizza.com.br solicitando o cancelamento. Informamos ainda que não disponibilizaremos seus dados para fins de publicidade a terceiros.</p>
+            <h6>5. Envio de informações.</h6>
+            <p>Somos autorizados a transmitir os dados do usuário a terceiros caso isto seja necessário para cumprir regulações legais (por exemplo, da legislação brasileira) como no caso da transmissão de dados a autoridades de perseguição penal e inspeção para fins de defesa de perigos para a segurança pública bem como a perseguição penal</p>
+
+            
         </div>
-        <!--.container-->
+        <!--.container # temros-->
     </section>
-    <!-- #categorias-->
-    <!--mid content-->
-    <section id="mid">
-        <!-- titulo mid -->
-        <div class="container">
-            <header>
-                <h3>Pizza de verdade é assim</h3>
-            </header>
-            <p>"O segredo de um grande sucesso está no trabalho de uma grande equipe."</p>
-            <!-- texto1 mid -->
-            <div class="row">
-                <div class="col s12 m6 l6">
-                    <header>
-                        <h4>FOCO NA QUALIDADE</h4>
-                    </header>
-                    <p>Maestria no preparo, contamos com profissionais qualificados e capacitados. Nossas pizzas são
-                        preparadas na hora. Depois que você faz seu pedido, o pizzaiolo abre a massa, recheia e leva pra
-                        assar. Tudo sempre fresquinho!</p>
-                </div>
-                <!--.col-->
-                <!-- video mid -->
-                <div class="col s12 m6 l6">
-                    <video class="responsive-video" autoplay muted loop>
-                        <source src="video/videopizza.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <!--.col-->
-            </div>
-            <!--.row-->
-            <!-- texto2 mid -->
-            <div class="row">
-                <div class="col s12 m6 l6">
-                    <header>
-                        <h4>Todo dia é dia de pizza!</h4>
-                    </header>
-                    <p>Todo dia é de se deliciar com a pizza mais gostosa da cidade. Temos pizzas de diferentes
-                        tamanhos,
-                        de
-                        até 60cm para toda família e sempre com diversas promoções. Não perca tempo e faça já o seu
-                        pedido!</p>
-                </div>
-                <!--.col-->
-                <div class="col s12 m6 l6">
-                    <img src="img/pizzamid1.jpg" alt="pizza" class="responsive-img">
-                </div>
-                <!--.col-->
-            </div>
-            <!--.row-->
-    </section>
+    <!--#mid-->
     <!-- rodapé -->
     <footer class="page-footer">
         <div class="container">
@@ -317,7 +201,7 @@
         </div>
         <!--.footer-copyright-->
     </footer>
-    <!--.page-footer-->
+     <!--.page-footer-->
     <!-- botão para entrar em contato pelo whatsapp -->
     <section id="contatozap">
         <div class="fixed-action-btn">

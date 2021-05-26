@@ -8,6 +8,27 @@ document.addEventListener("DOMContentLoaded", function () {
 }, false);
 
 
-var select = document.getElementById('tammussarela');
-	var value = select.options[select.selectedIndex].value;
-	console.log(value);
+//função logar
+
+function logar() {
+  var email = document.getElementById("email-login")
+  var senha = document.getElementById("senha-login")
+
+  if (email.value == "admin@admin.com" && senha.value == "admin") {
+    localStorage.setItem(acesso, true)
+    windows.location.href = "index.html";
+  } else {
+    alert("Usuário ou senha invalidos!")
+  }
+}
+// API Geolocation
+if ('geolocation' in navigator) {
+  const watcher =  navigator.geolocation.watchPosition(function(position){
+      console.log(position)
+       }, function(error){
+          console.log(error)
+       }, { enableHighAccuracy: true, maximumAge: 100000, timeout: 1000000})
+} else {
+  alert("Navegador não suporta o geolocation!")
+}
+

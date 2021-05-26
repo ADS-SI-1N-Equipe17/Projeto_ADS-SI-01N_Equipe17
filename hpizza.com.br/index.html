@@ -80,8 +80,8 @@
                                 <div class="row">
                                     <div class="input-field">
                                         <i class="material-icons prefix">person</i>
-                                        <input type="email" id="email" maxlength="50" required>
-                                        <label for="email">Email</label>
+                                        <input type="email" id="email-login" maxlength="50" required>
+                                        <label for="email-login">Email</label>
                                         <br>
                                     </div>
                                 </div>
@@ -89,8 +89,8 @@
                                 <div class="row">
                                     <div class="input-field">
                                         <i class="material-icons prefix">lock</i>
-                                        <input type="password" id="senha" maxlength="25" required>
-                                        <label for="senha">Senha</label>
+                                        <input type="password" id="senha-login" maxlength="25" required>
+                                        <label for="senha-login">Senha</label>
                                         <br>
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@
                                     <a href="cadastrar.html">Cadastre-se</a>
                                 </div>
                                 <!--botão submit-->
-                                <div class="row"><input type="submit" value="Entrar"
+                                <div class="row"><input type="submit" onclick="logar()" value="Entrar"
                                         class="btn light-green accent-4 btn-large"></div>
                             </form>
                         </div>
@@ -326,6 +326,7 @@
         </div><!-- .fixed-action-btn-->
     </section>
     <!--#contatozap-->
+    <!--API geolocation-->
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="

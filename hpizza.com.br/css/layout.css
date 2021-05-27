@@ -170,7 +170,7 @@ div#recuperarsenha {
     text-align: justify;
 }
 
-div#termos h6, div#cardapio h6, div#cardapio h6, div#sobre h6, div#cadastro h6, div#recuperarsenha h6 {
+div#termos h6, div#cardapio h6, div#cardapio h6, div#sobre h6, div#cadastro h6, div#recuperarsenha h6, div#politicas h6{
     font-family: 'Montserrat', sans-serif !important;
     color: #000000;
     font-weight: 600;
@@ -179,7 +179,7 @@ div#termos h6, div#cardapio h6, div#cardapio h6, div#sobre h6, div#cadastro h6, 
     font-size: 1.1em;
 }
 
-div#termos p, div#cardapio p, div#cardapio p, div#sobre p, div#cadastro p, div#recuperarsenha p {
+div#termos p, div#cardapio p, div#cardapio p, div#sobre p, div#cadastro p, div#recuperarsenha p, div#politicas p{
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
     font-size: 15px;
@@ -222,7 +222,7 @@ section#mid-termos h4, section#mid-recuperarsenha h4, section#mid-cadastrar h4, 
     font-size: 2em;
 }
 
-div#cadastro h6 {
+div#cadastro h6{
     font-family: 'Montserrat', sans-serif !important;
     color: #000000;
     font-weight: 500;

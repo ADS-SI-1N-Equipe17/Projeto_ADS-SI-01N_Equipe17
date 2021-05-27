@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //função logar
 function logar() {
-  var email = document.getElementById("email-login")
-  var senha = document.getElementById("senha-login")
+  var email = document.getElementById("emaillogin")
+  var senha = document.getElementById("senhalogin")
 
   if (email.value == "admin@admin.com" && senha.value == "admin") {
     alert("deu certo")

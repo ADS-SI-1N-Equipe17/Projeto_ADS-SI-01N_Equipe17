@@ -151,9 +151,12 @@ function entrar() {
 
     }
   })
+  //testa se foi inserido algum dado nos campos de email e senha
   if (usuario.value == '' && senha.value == '') {
     msgError.setAttribute('style', 'display: block')
     msgError.innerHTML = 'Insira o email e senha para entrar'
+
+    //testa se o usuário está cadastrado no localStorage
   } else if (usuario.value == userValid.email && senha.value == userValid.senha) {
     window.location.href = 'index.html'
 
@@ -176,7 +179,7 @@ function entrar() {
   }
 
 
-  //testa se o usuário está cadastrado no localStorage
+
 
 
 

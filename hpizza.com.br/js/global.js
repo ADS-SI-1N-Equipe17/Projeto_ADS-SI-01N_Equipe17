@@ -44,7 +44,7 @@ let tel = document.getElementById("tel")
 
 let nasc = document.getElementById("nasc")
 
-//validando campos
+//Validando campos
 
 nome.addEventListener('keyup', () => {
 
@@ -94,13 +94,13 @@ confirmarSenha.addEventListener('keyup', () => {
   }
 })
 
-//função cadastrar
+//Função cadastrar
 function cadastrar() {
 
-  //validar cadastro
+  //Validar cadastro
   if (validNome && validSenha && validConfirmarsenha) {
     alert(`Usuário cadastrado com sucesso!`)
-    //criando o JSON após o cadastro para armazenar no localStorage
+    //Criando o JSON após o cadastro para armazenar no localStorage
     let UsuariosCad = JSON.parse(localStorage.getItem('UsuariosCad') || '[]')
 
     UsuariosCad.push(
@@ -122,7 +122,7 @@ function cadastrar() {
 
 }
 
-// Função para entrar
+//Função para entrar
 function entrar() {
   let usuario = document.querySelector('#emaillogin')
   let userLabel = document.querySelector('#emailloginLabel')
@@ -137,7 +137,7 @@ function entrar() {
     email: '',
     senha: ''
   }
-  //chamar o JSON UsuariosCad
+  //Chamar o JSON UsuariosCad
   listaUser = JSON.parse(localStorage.getItem('UsuariosCad'))
 
   listaUser.forEach((item) => {
@@ -151,19 +151,19 @@ function entrar() {
 
     }
   })
-  //testa se foi inserido algum dado nos campos de email e senha
+  //Testa se foi inserido algum dado nos campos de email e senha
   if (usuario.value == '' && senha.value == '') {
     msgError.setAttribute('style', 'display: block')
     msgError.innerHTML = 'Insira o email e senha para entrar'
 
-    //testa se o usuário está cadastrado no localStorage
+    //Testa se o usuário está cadastrado no localStorage
   } else if (usuario.value == userValid.email && senha.value == userValid.senha) {
     window.location.href = 'index.html'
 
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom
 
-    //token de usuário logado
+    //Token de usuário logado
     localStorage.setItem('token', token)
     localStorage.setItem('usuarioLogado', JSON.stringify(userValid))
     alert(`Bem vindo ${userValid.nome}`)
@@ -177,12 +177,6 @@ function entrar() {
     msgError.innerHTML = 'Usuário ou senha incorretos'
     usuario.focus()
   }
-
-
-
-
-
-
 }
 
 

@@ -151,9 +151,10 @@ function entrar() {
 
     }
   })
-
-  //testa se o usuário está cadastrado no localStorage
-  if (usuario.value == userValid.email && senha.value == userValid.senha) {
+  if (usuario.value == '' && senha.value == '') {
+    msgError.setAttribute('style', 'display: block')
+    msgError.innerHTML = 'Insira o email e senha para entrar'
+  } else if (usuario.value == userValid.email && senha.value == userValid.senha) {
     window.location.href = 'index.html'
 
     let mathRandom = Math.random().toString(16).substr(2)
@@ -173,4 +174,13 @@ function entrar() {
     msgError.innerHTML = 'Usuário ou senha incorretos'
     usuario.focus()
   }
+
+
+  //testa se o usuário está cadastrado no localStorage
+
+
+
 }
+
+
+

@@ -74,14 +74,15 @@
                         <div class="modal-content">
                             <h4>Acesse seu perfil</h4>
                             <br>
-                            <form name="modal-login" action="#" method="POST"
-                                enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+                            <div id='msgError'></div>
+                            <br>
+                            <form name="modal-login" accept-charset="UTF-8" name="loginform">
                                 <!--email-->
                                 <div class="row">
                                     <div class="input-field">
                                         <i class="material-icons prefix">person</i>
                                         <input type="email" id="emaillogin" maxlength="50" required>
-                                        <label for="emaillogin">Email</label>
+                                        <label id="emailloginLabel" for="emaillogin">Email</label>
                                         <br>
                                     </div>
                                 </div>
@@ -90,7 +91,7 @@
                                     <div class="input-field">
                                         <i class="material-icons prefix">lock</i>
                                         <input type="password" id="senhalogin" maxlength="25" required>
-                                        <label for="senhalogin">Senha</label>
+                                        <label id="senhaloginLabel" for="senhalogin">Senha</label>
                                         <br>
                                     </div>
                                 </div>
@@ -103,7 +104,7 @@
                                     <a href="cadastrar.html">Cadastre-se</a>
                                 </div>
                                 <!--botão submit-->
-                                <div class="row"><input type="submit" onclick="logar()" value="Entrar"
+                                <div class="row"><input onclick='entrar()' value="Entrar"
                                         class="btn light-green accent-4 btn-large"></div>
                             </form>
                         </div>

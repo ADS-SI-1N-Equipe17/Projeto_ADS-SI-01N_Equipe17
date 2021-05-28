@@ -7,18 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("whatsapp-share-btt").href = "https://api.whatsapp.com/send?text=" + conteudo;
 }, false);
 
-
-//função logar
-function logar() {
-  var email = document.getElementById("emaillogin")
-  var senha = document.getElementById("senhalogin")
-
-  if (email.value == "admin@admin.com" && senha.value == "admin") {
-    alert("deu certo")
-  } else {
-    alert("Usuário ou senha invalidos!")
-  }
-}
 //API Geolocation
 if ('geolocation' in navigator) {
   const watcher = navigator.geolocation.watchPosition(function (position) {
@@ -30,15 +18,16 @@ if ('geolocation' in navigator) {
   alert("Navegador não suporta o geolocation!")
 }
 
+
 //Validação de cadastro
 
 
-let nome = document.querySelector('#nome')
-let labelNome = document.querySelector('#labelNome')
+let nome = document.getElementById("nome")
+let labelNome = document.getElementById("labelNome")
 let validNome = false
 
-let senha = document.querySelector('#senha')
-let labelSenha = document.querySelector('#labelSenha')
+let senha = document.getElementById("senha")
+let labelSenha = document.getElementById("labelSenha")
 let validSenha = false
 
 let confirmarSenha = document.querySelector('#confirmar-senha')
@@ -126,9 +115,60 @@ function cadastrar() {
 
       }
     )
+    localStorage.setItem('UsuariosCad', JSON.stringify(UsuariosCad))
   } else {
     alert('Preencha os campos para prosseguir com o cadastro.')
   }
 
 }
 
+// Função para entrar
+function entrar(){
+  let usuario = document.querySelector('#emaillogin')
+  let userLabel = document.querySelector('#emailloginLabel')
+  
+  let senha = document.querySelector('#senhalogin')
+  let senhaLabel = document.querySelector('#senhaloginLabel')
+  
+  let listaUser = []
+  
+  let userValid = {
+    nome: '',
+    email: '',
+    senha: ''
+  }
+  //chamar o JSON UsuariosCad
+  listaUser = JSON.parse(localStorage.getItem('UsuariosCad'))
+  
+  listaUser.forEach((item) => {
+    if(usuario.value == item.emailCad && senha.value == item.senhaCad){
+       
+      userValid = {
+         nome: item.nomeCad,
+         email: item.emailCad,
+         senha: item.senhaCad
+       }
+      
+    }
+  })
+
+  //testa se o usuário está cadastrado no localStorage
+  if(usuario.value == userValid.email && senha.value == userValid.senha){
+    window.location.href = 'index.html'
+    
+    let mathRandom = Math.random().toString(16).substr(2)
+    let token = mathRandom + mathRandom
+    
+    localStorage.setItem('token', token)
+    localStorage.setItem('userLogado', JSON.stringify(userValid))
+    alert(`Bem vindo ${userValid.nome}`)
+  } else {
+    userLabel.setAttribute('style', 'color: red')
+    usuario.setAttribute('style', 'border-color: red')
+    senhaLabel.setAttribute('style', 'color: red')
+    senha.setAttribute('style', 'border-color: red')
+    msgError.setAttribute('style', 'display: block')
+    msgError.innerHTML = 'Usuário ou senha incorretos'
+    usuario.focus()
+  }
+}

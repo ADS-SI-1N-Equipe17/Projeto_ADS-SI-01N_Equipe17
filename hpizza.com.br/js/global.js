@@ -123,15 +123,15 @@ function cadastrar() {
 }
 
 // Função para entrar
-function entrar(){
+function entrar() {
   let usuario = document.querySelector('#emaillogin')
   let userLabel = document.querySelector('#emailloginLabel')
-  
+
   let senha = document.querySelector('#senhalogin')
   let senhaLabel = document.querySelector('#senhaloginLabel')
-  
+
   let listaUser = []
-  
+
   let userValid = {
     nome: '',
     email: '',
@@ -139,29 +139,31 @@ function entrar(){
   }
   //chamar o JSON UsuariosCad
   listaUser = JSON.parse(localStorage.getItem('UsuariosCad'))
-  
+
   listaUser.forEach((item) => {
-    if(usuario.value == item.emailCad && senha.value == item.senhaCad){
-       
+    if (usuario.value == item.emailCad && senha.value == item.senhaCad) {
+
       userValid = {
-         nome: item.nomeCad,
-         email: item.emailCad,
-         senha: item.senhaCad
-       }
-      
+        nome: item.nomeCad,
+        email: item.emailCad,
+        senha: item.senhaCad
+      }
+
     }
   })
 
   //testa se o usuário está cadastrado no localStorage
-  if(usuario.value == userValid.email && senha.value == userValid.senha){
+  if (usuario.value == userValid.email && senha.value == userValid.senha) {
     window.location.href = 'index.html'
-    
+
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom
-    
+
+    //token de usuário logado
     localStorage.setItem('token', token)
-    localStorage.setItem('userLogado', JSON.stringify(userValid))
+    localStorage.setItem('usuarioLogado', JSON.stringify(userValid))
     alert(`Bem vindo ${userValid.nome}`)
+
   } else {
     userLabel.setAttribute('style', 'color: red')
     usuario.setAttribute('style', 'border-color: red')

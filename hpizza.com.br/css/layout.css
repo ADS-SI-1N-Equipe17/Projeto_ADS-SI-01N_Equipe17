@@ -118,7 +118,8 @@ input[type="submit"] {
     font-weight: 500;
     margin-top: 3%;
 }
-#msgError{
+
+#msgError {
     font-family: 'Montserrat', sans-serif !important;
     text-align: center;
     color: #ff0000;
@@ -126,7 +127,7 @@ input[type="submit"] {
     padding: 10px;
     border-radius: 4px;
     display: none;
-  }
+}
 
 /* container mid */
 
@@ -582,4 +583,3 @@ div#redes ul li:nth-child(3) a:hover {
         background-size: cover;
     }
 }
-

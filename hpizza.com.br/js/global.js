@@ -178,3 +178,45 @@ function entrar() {
     usuario.focus()
   }
 }
+
+function addcarrinho(x, y) {
+
+
+  var valorProduto = x;
+  var nomeProduto = y;
+
+  //Tam Pizzas
+  if (valorProduto == 35 || valorProduto == 40 || valorProduto == 48) {
+    nomeProduto = `${y} média`
+  } else if (valorProduto == 48 || valorProduto == 58 || valorProduto == 63) {
+    nomeProduto = `${y} grande`
+  } else if (valorProduto == 55 || valorProduto == 65 || valorProduto == 70) {
+    nomeProduto = `${y} giga`
+  }
+
+  //Bebidas
+
+  console.log(nomeProduto)
+  console.log(valorProduto)
+
+  //console.log(carrinho)
+  alert(`Adicionado: ${nomeProduto} R$${valorProduto}`)
+  //window.location.href = 'index.html'
+
+
+  /*let carrinho = JSON.parse(sessionStorage.getItem('carrinho') || '[]')
+
+carrinho.push(
+  {
+    nomeProd: [pizzaNome],
+    valorProd: [valorMussarela],
+
+  }
+)
+
+sessionStorage.setItem('carrinho', JSON.stringify(carrinho)) */
+
+
+
+
+}

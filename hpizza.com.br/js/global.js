@@ -185,6 +185,8 @@ function addcarrinho(x, y) {
   var valorProduto = x;
   var nomeProduto = y;
 
+  valorProduto = Number.parseFloat(valorProduto)
+
   //Tam Pizzas
   if (valorProduto == 35 || valorProduto == 40 || valorProduto == 48) {
     nomeProduto = `${y} média`
@@ -194,10 +196,70 @@ function addcarrinho(x, y) {
     nomeProduto = `${y} giga`
   }
 
-  //Bebidas
+  //Tam Refrigerantes
+  if (nomeProduto == 'Coca-Cola' && valorProduto == 14) {
+    nomeProduto = `${y} 2L`
+  } else if (nomeProduto == 'Coca-Cola' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Coca-Cola' && valorProduto == 8) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  if (nomeProduto == 'Coca-Cola Zero' && valorProduto == 14) {
+    nomeProduto = `${y} 2L`
+  } else if (nomeProduto == 'Coca-Cola Zero' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Coca-Cola Zero' && valorProduto == 8) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  if (nomeProduto == 'Fanta' && valorProduto == 14) {
+    nomeProduto = `${y} 2L`
+  } else if (nomeProduto == 'Fanta' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Fanta' && valorProduto == 8) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  if (nomeProduto == 'Sprite' && valorProduto == 14) {
+    nomeProduto = `${y} 2L`
+  } else if (nomeProduto == 'Sprite' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Sprite' && valorProduto == 8) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  //Tam Sucos
+  if (nomeProduto == 'Del Valle Maracujá' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Del Valle Maracujá' && valorProduto == 6) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+  if (nomeProduto == 'Del Valle Uva' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Del Valle Uva' && valorProduto == 6) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  //Tam Águas
+  if (nomeProduto == 'Água' && valorProduto == 5) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Água' && valorProduto == 3) {
+    nomeProduto = `${y} 500ml`
+  }
+  if (nomeProduto == 'Água com gás' && valorProduto == 5) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Água com gás' && valorProduto == 3) {
+    nomeProduto = `${y} 500ml`
+  }
+
+
+
 
   console.log(nomeProduto)
-  console.log(valorProduto)
+  console.log(valorProduto.toFixed(2))
+  console.log(typeof valorProduto)
+
 
   //console.log(carrinho)
   alert(`Adicionado: ${nomeProduto} R$${valorProduto}`)
@@ -215,6 +277,8 @@ carrinho.push(
 )
 
 sessionStorage.setItem('carrinho', JSON.stringify(carrinho)) */
+
+
 
 
 

@@ -259,28 +259,21 @@ function addcarrinho(x, y) {
   console.log(nomeProduto)
   console.log(valorProduto.toFixed(2))
   console.log(typeof valorProduto)
-
-
-  //console.log(carrinho)
   alert(`Adicionado: ${nomeProduto} R$${valorProduto}`)
   //window.location.href = 'index.html'
 
+  let carrinho = JSON.parse(sessionStorage.getItem('carrinho') || '[]')
 
-  /*let carrinho = JSON.parse(sessionStorage.getItem('carrinho') || '[]')
+  carrinho.push(
 
-carrinho.push(
-  {
-    nomeProd: [pizzaNome],
-    valorProd: [valorMussarela],
+    {
+      nomeProd: nomeProduto,
+      valorProd: valorProduto,
 
-  }
-)
+    }
+  )
 
-sessionStorage.setItem('carrinho', JSON.stringify(carrinho)) */
-
-
-
-
-
+  sessionStorage.setItem('carrinho', JSON.stringify(carrinho))
 
 }
+

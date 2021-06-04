@@ -259,6 +259,7 @@ function addcarrinho(x, y) {
   console.log(typeof valorProduto)
   alert(`Adicionado: ${nomeProduto} R$${valorProduto}`)
 
+  //Cria o JSON no sessionStorage
   var carrinho = JSON.parse(sessionStorage.getItem("produtosCarrinho"));
 
   if (carrinho == null) {
@@ -267,26 +268,32 @@ function addcarrinho(x, y) {
 
   }
 
+  //objeto dos produtos
   var produtos = {
     nomeProd: nomeProduto,
     valorProd: valorProduto,
   }
-  var total = 0;
-  var subTotal = valorProduto;
-  total = Number.parseFloat(total)
-  subTotal = Number.parseFloat(subTotal)
-  subTotal =  valorProduto;
-  
   carrinho.push(produtos);
 
-  total = total + subTotal;
+
+  //incrementar o total da compra
+  var subTotal = valorProduto;
+  subTotal = Number.parseFloat(subTotal)
+
+  var total = 0;
+  total = Number.parseFloat(total)
+  total += subTotal;
+
+  console.log("Valor: " + total)
+
+
   carrinho.push(total);
 
-  
-  
-  
+
 
   sessionStorage.setItem("produtosCarrinho", JSON.stringify(carrinho));
+
+
 
 }
 

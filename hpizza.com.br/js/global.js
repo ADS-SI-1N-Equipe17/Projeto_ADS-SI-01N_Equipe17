@@ -179,6 +179,7 @@ function entrar() {
   }
 }
 
+//Adicionar ao carrinho
 function addcarrinho(x, y) {
 
 
@@ -253,27 +254,39 @@ function addcarrinho(x, y) {
     nomeProduto = `${y} 500ml`
   }
 
-
-
-
   console.log(nomeProduto)
   console.log(valorProduto.toFixed(2))
   console.log(typeof valorProduto)
   alert(`Adicionado: ${nomeProduto} R$${valorProduto}`)
-  //window.location.href = 'index.html'
 
-  let carrinho = JSON.parse(sessionStorage.getItem('carrinho') || '[]')
+  var carrinho = JSON.parse(sessionStorage.getItem("produtosCarrinho"));
 
-  carrinho.push(
+  if (carrinho == null) {
+    sessionStorage.setItem("produtosCarrinho", "[]");
+    carrinho = [];
 
-    {
-      nomeProd: nomeProduto,
-      valorProd: valorProduto,
+  }
 
-    }
-  )
+  var produtos = {
+    nomeProd: nomeProduto,
+    valorProd: valorProduto,
+  }
+  var total = 0;
+  var subTotal = valorProduto;
+  total = Number.parseFloat(total)
+  subTotal = Number.parseFloat(subTotal)
+  subTotal =  valorProduto;
+  
+  carrinho.push(produtos);
 
-  sessionStorage.setItem('carrinho', JSON.stringify(carrinho))
+  total = total + subTotal;
+  carrinho.push(total);
+
+  
+  
+  
+
+  sessionStorage.setItem("produtosCarrinho", JSON.stringify(carrinho));
 
 }
 

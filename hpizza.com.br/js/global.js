@@ -160,10 +160,11 @@ function entrar() {
   } else if (usuario.value == userValid.email && senha.value == userValid.senha) {
     window.location.href = 'index.html'
 
+    //Criação do token quando o usuário logar
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom
 
-    //Token de usuário logado
+    //Guardando token no localStorage
     localStorage.setItem('token', token)
     localStorage.setItem('usuarioLogado', JSON.stringify(userValid))
     alert(`Bem vindo ${userValid.nome}`)

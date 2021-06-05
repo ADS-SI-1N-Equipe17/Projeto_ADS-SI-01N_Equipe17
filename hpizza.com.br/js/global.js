@@ -256,7 +256,6 @@ function addcarrinho(x, y) {
 
   console.log(nomeProduto)
   console.log(valorProduto.toFixed(2))
-  console.log(typeof valorProduto)
   alert(`Adicionado: ${nomeProduto} R$${valorProduto}`)
 
   //Cria o JSON no sessionStorage
@@ -277,19 +276,15 @@ function addcarrinho(x, y) {
 
 
   //incrementar o total da compra
-
   let total = 0;
+
   for (let i = 0; i < carrinho.length; i++) {
 
     total += carrinho[i].valorProd;
-
-    console.log(typeof total)
-    console.log("Valor: " + total)
-
   }
+
+  console.log("Valor total: " + total.toFixed(2))
   sessionStorage.setItem("produtosCarrinho", JSON.stringify(carrinho));
-
-
 
 
 }

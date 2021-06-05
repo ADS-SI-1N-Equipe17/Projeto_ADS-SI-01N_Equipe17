@@ -177,6 +177,7 @@ function entrar() {
     msgError.innerHTML = 'Usuário ou senha incorretos'
     usuario.focus()
   }
+
 }
 
 //Adicionar ao carrinho

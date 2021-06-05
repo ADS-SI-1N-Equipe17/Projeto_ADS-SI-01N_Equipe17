@@ -291,7 +291,7 @@ section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#m
 /* cards cardapio */
 
 div#card1 {
-    max-height: 460px;
+    max-height: 480px;
     overflow: hidden;
     border-radius: 10px;
 }

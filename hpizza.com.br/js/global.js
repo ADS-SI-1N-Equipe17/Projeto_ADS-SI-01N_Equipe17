@@ -268,7 +268,7 @@ function addcarrinho(x, y) {
 
   }
 
-  //objeto dos produtos
+  //objeto produtos
   var produtos = {
     nomeProd: nomeProduto,
     valorProd: valorProduto,
@@ -277,21 +277,18 @@ function addcarrinho(x, y) {
 
 
   //incrementar o total da compra
-  var subTotal = valorProduto;
-  subTotal = Number.parseFloat(subTotal)
 
-  var total = 0;
-  total = Number.parseFloat(total)
-  total += subTotal;
+  let total = 0;
+  for (let i = 0; i < carrinho.length; i++) {
 
-  console.log("Valor: " + total)
+    total += carrinho[i].valorProd;
 
+    console.log(typeof total)
+    console.log("Valor: " + total)
 
-  carrinho.push(total);
-
-
-
+  }
   sessionStorage.setItem("produtosCarrinho", JSON.stringify(carrinho));
+
 
 
 

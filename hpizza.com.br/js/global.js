@@ -275,6 +275,7 @@ function addcarrinho(x, y) {
     valorProd: valorProduto,
   }
   carrinho.push(produtos);
+ 
 
 
   //incrementar o total da compra
@@ -287,7 +288,13 @@ function addcarrinho(x, y) {
 
   console.log("Valor total: " + total.toFixed(2))
   sessionStorage.setItem("produtosCarrinho", JSON.stringify(carrinho));
-
+  
+  var ing = total;
+  var lista = document.getElementById("lista").innerHTML;
+  lista = lista + "<li>" + ing + "</li>";
+  
+  document.getElementById("lista").innerHTML = lista;
 
 }
 
+//incrementar pagina de carrinho

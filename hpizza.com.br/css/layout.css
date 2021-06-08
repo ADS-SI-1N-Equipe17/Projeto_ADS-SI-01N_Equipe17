@@ -587,3 +587,9 @@ div#redes ul li:nth-child(3) a:hover {
         background-size: cover;
     }
 }
+
+
+ul#lista{
+    color: #000000;
+    padding-top: 10px;
+}

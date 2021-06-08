@@ -296,5 +296,3 @@ function addcarrinho(x, y) {
   document.getElementById("lista").innerHTML = lista;
 
 }
-
-//incrementar pagina de carrinho

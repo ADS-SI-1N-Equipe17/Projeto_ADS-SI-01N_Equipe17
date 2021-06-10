@@ -291,11 +291,15 @@ section#mid-termos, section#mid-recuperarsenha, section#mid-cadastrar, section#m
 /* cards cardapio */
 
 div#card1 {
-    max-height: 460px;
+    max-height: 480px;
     overflow: hidden;
     border-radius: 10px;
 }
-
+div#card1 h6{
+    font-family: 'Montserrat', sans-serif !important;
+    color: #000000;
+    text-align: center;
+}
 div#cardapio h5 {
     font-family: 'Montserrat', sans-serif !important;
     color: #000000;
@@ -582,4 +586,10 @@ div#redes ul li:nth-child(3) a:hover {
         background-repeat: no-repeat;
         background-size: cover;
     }
+}
+
+
+ul#lista{
+    color: #000000;
+    padding-top: 10px;
 }

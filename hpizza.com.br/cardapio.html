@@ -54,7 +54,7 @@
             <!--navbar-->
             <!-- sidenav mobile -->
             <ul class="sidenav" id="mobile-menu">
-                <li><a href="https://api.whatsapp.com/send?text=[CONTEÚDO]" class="modal-trigger waves-effect"><i
+                <li><a href="https://api.whatsapp.com/send?text=[CONTEÚDO] Venha conhecer a House Pizza" class="modal-trigger waves-effect"><i
                             class="material-icons left ">share</i>Compartilhar</a></li>
                 <li><a href="Sobre.html" class="waves-effect "><i class="material-icons left">info</i>Sobre</a>
                 </li>
@@ -156,7 +156,9 @@
                                         <option value="48">Grande R$ 48,00</option>
                                         <option value="55">Giga R$ 55,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tammussarela.value, 'Mussarela')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -185,7 +187,9 @@
                                         <option value="48">Grande R$ 48,00</option>
                                         <option value="55">Giga R$ 55,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit"  value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tammarg.value, 'Margherita')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -214,7 +218,9 @@
                                         <option value="48">Grande R$ 48,00</option>
                                         <option value="55">Giga R$ 55,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit"  value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamcalabresa.value, 'Calabresa')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -243,7 +249,8 @@
                                         <option value="48">Grande R$ 48,00</option>
                                         <option value="55">Giga R$ 55,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit"  value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit" onclick="addcarrinho(tambauru.value, 'Bauru')"
+                                        value="Adicionar" class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -280,7 +287,9 @@
                                         <option value="58">Grande R$ 58,00</option>
                                         <option value="65">Giga R$ 65,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tam3queijos.value, '3 Queijos')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -310,7 +319,9 @@
                                         <option value="58">Grande R$ 58,00</option>
                                         <option value="65">Giga R$ 65,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamfrangoregueijao.value, 'Frango com Regueijão')"
+                                        value="Adicionar" class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -340,7 +351,9 @@
                                         <option value="58">Grande R$ 58,00</option>
                                         <option value="65">Giga R$ 65,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamportu.value, 'Portuguesa')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -370,7 +383,8 @@
                                         <option value="58">Grande R$ 58,00</option>
                                         <option value="65">Giga R$ 65,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit" onclick="addcarrinho(tamveggie.value, 'Veggie')"
+                                        value="Adicionar" class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -407,7 +421,9 @@
                                         <option value="63">Grande R$ 63,00</option>
                                         <option value="70">Giga R$ 70,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tam4queijos.value, '4 Queijos')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -437,7 +453,9 @@
                                         <option value="63">Grande R$ 63,00</option>
                                         <option value="70">Giga R$ 70,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamcornbacon.value, 'Corn & Bacon')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -466,7 +484,9 @@
                                         <option value="63">Grande R$ 63,00</option>
                                         <option value="70">Giga R$ 70,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tampepper.value, 'Pepperoni')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -497,7 +517,9 @@
                                         <option value="63">Grande R$ 63,00</option>
                                         <option value="70">Giga R$ 70,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamextra.value, 'Extravaganzza')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                             <div class="card-reveal">
@@ -539,7 +561,9 @@
                                         <option value="10">1L R$ 10,00</option>
                                         <option value="8">Lata 350ml R$ 8,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamcocacola.value, 'Coca-Cola')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                         </div>
@@ -562,7 +586,9 @@
                                         <option value="10">1L R$ 10,00</option>
                                         <option value="8">Lata 350ml R$ 8,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamcocazero.value, 'Coca-Cola Zero')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                         </div>
@@ -585,7 +611,8 @@
                                         <option value="10">1L R$ 10,00</option>
                                         <option value="8">Lata 350ml R$ 8,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit" onclick="addcarrinho(tamfanta.value, 'Fanta')"
+                                        value="Adicionar" class="btn btn-large">
                                 </form>
                             </div>
                         </div>
@@ -595,7 +622,7 @@
                     <div class="col s12 m6 l3">
                         <div class="card" id="card1">
                             <div class="card-image">
-                                <img src="img/sprite.jpg" alt="Bauru" class="responsive-img">
+                                <img src="img/sprite.jpg" alt="Sprite" class="responsive-img">
                             </div>
                             <div class="card-content">
                                 <header>
@@ -608,7 +635,8 @@
                                         <option value="10">1L R$ 10,00</option>
                                         <option value="8">Lata 350ml R$ 8,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit" onclick="addcarrinho(tamsprite.value, 'Sprite')"
+                                        value="Adicionar" class="btn btn-large">
                                 </form>
                             </div>
                         </div>
@@ -638,7 +666,9 @@
                                         <option value="10">1L R$ 10,00</option>
                                         <option value="6">Lata 350ml R$ 6,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamdelvallemaracuja.value, 'Del Valle Maracujá')"
+                                        value="Adicionar" class="btn btn-large">
                                 </form>
                             </div>
                         </div>
@@ -660,7 +690,9 @@
                                         <option value="10">1L R$ 10,00</option>
                                         <option value="6">Lata 350ml R$ 6,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamdelvalleuva.value, 'Del Valle Uva')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                         </div>
@@ -682,7 +714,8 @@
                                         <option value="5">1L R$ 5,00</option>
                                         <option value="3">500ml R$ 3,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit" onclick="addcarrinho(tamagua.value, 'Água')"
+                                        value="Adicionar" class="btn btn-large">
                                 </form>
                             </div>
                         </div>
@@ -698,13 +731,15 @@
                                 <header>
                                     <h6 class="card-title">Água com gás</h6>
                                 </header>
-                                <form name="addaguagas" action="#" method="GET">
+                                <form name="addaguagas" action="carrinho.html" method="GET">
                                     <select id="tamaguagas" required>
                                         <option value="" disabled selected>Escolha o tamanho</option>
                                         <option value="5">1L R$ 5,00</option>
                                         <option value="3">500ml R$ 3,00</option>
                                     </select>
-                                    <input id="adicionar" type="submit" value="Adicionar" class="btn btn-large">
+                                    <input id="adicionar" type="submit"
+                                        onclick="addcarrinho(tamaguagas.value, 'Água com gás')" value="Adicionar"
+                                        class="btn btn-large">
                                 </form>
                             </div>
                         </div>

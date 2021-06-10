@@ -160,10 +160,11 @@ function entrar() {
   } else if (usuario.value == userValid.email && senha.value == userValid.senha) {
     window.location.href = 'index.html'
 
+    //Criação do token quando o usuário logar
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom
 
-    //Token de usuário logado
+    //Guardando token no localStorage
     localStorage.setItem('token', token)
     localStorage.setItem('usuarioLogado', JSON.stringify(userValid))
     alert(`Bem vindo ${userValid.nome}`)
@@ -177,4 +178,115 @@ function entrar() {
     msgError.innerHTML = 'Usuário ou senha incorretos'
     usuario.focus()
   }
+
+}
+
+//Adicionar ao carrinho
+function addcarrinho(x, y) {
+
+
+  var valorProduto = x;
+  var nomeProduto = y;
+
+  valorProduto = Number.parseFloat(valorProduto)
+
+  //Tam Pizzas
+  if (valorProduto == 35 || valorProduto == 40 || valorProduto == 48) {
+    nomeProduto = `${y} média`
+  } else if (valorProduto == 48 || valorProduto == 58 || valorProduto == 63) {
+    nomeProduto = `${y} grande`
+  } else if (valorProduto == 55 || valorProduto == 65 || valorProduto == 70) {
+    nomeProduto = `${y} giga`
+  }
+
+  //Tam Refrigerantes
+  if (nomeProduto == 'Coca-Cola' && valorProduto == 14) {
+    nomeProduto = `${y} 2L`
+  } else if (nomeProduto == 'Coca-Cola' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Coca-Cola' && valorProduto == 8) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  if (nomeProduto == 'Coca-Cola Zero' && valorProduto == 14) {
+    nomeProduto = `${y} 2L`
+  } else if (nomeProduto == 'Coca-Cola Zero' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Coca-Cola Zero' && valorProduto == 8) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  if (nomeProduto == 'Fanta' && valorProduto == 14) {
+    nomeProduto = `${y} 2L`
+  } else if (nomeProduto == 'Fanta' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Fanta' && valorProduto == 8) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  if (nomeProduto == 'Sprite' && valorProduto == 14) {
+    nomeProduto = `${y} 2L`
+  } else if (nomeProduto == 'Sprite' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Sprite' && valorProduto == 8) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  //Tam Sucos
+  if (nomeProduto == 'Del Valle Maracujá' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Del Valle Maracujá' && valorProduto == 6) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+  if (nomeProduto == 'Del Valle Uva' && valorProduto == 10) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Del Valle Uva' && valorProduto == 6) {
+    nomeProduto = `${y} Lata 350ml`
+  }
+
+  //Tam Águas
+  if (nomeProduto == 'Água' && valorProduto == 5) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Água' && valorProduto == 3) {
+    nomeProduto = `${y} 500ml`
+  }
+  if (nomeProduto == 'Água com gás' && valorProduto == 5) {
+    nomeProduto = `${y} 1L`
+  } else if (nomeProduto == 'Água com gás' && valorProduto == 3) {
+    nomeProduto = `${y} 500ml`
+  }
+
+  console.log(nomeProduto)
+  console.log(valorProduto.toFixed(2))
+  alert(`Adicionado: ${nomeProduto} R$${valorProduto}`)
+
+  //Cria o JSON no sessionStorage
+  var carrinho = JSON.parse(sessionStorage.getItem("produtosCarrinho"));
+
+  if (carrinho == null) {
+    sessionStorage.setItem("produtosCarrinho", "[]");
+    carrinho = [];
+
+  }
+
+  //objeto produtos
+  var produtos = {
+    nomeProd: nomeProduto,
+    valorProd: valorProduto,
+  }
+  carrinho.push(produtos);
+ 
+
+
+  //incrementar o total da compra
+  let total = 0;
+
+  for (let i = 0; i < carrinho.length; i++) {
+
+    total += carrinho[i].valorProd;
+  }
+
+  console.log("Valor total: " + total.toFixed(2))
+  sessionStorage.setItem("produtosCarrinho", JSON.stringify(carrinho));
+
 }

@@ -290,4 +290,3 @@ function addcarrinho(x, y) {
   sessionStorage.setItem("produtosCarrinho", JSON.stringify(carrinho));
 
 }
-
